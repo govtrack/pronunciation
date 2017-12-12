@@ -362,7 +362,7 @@
     govtrack: 412606
   name: Donald // Norcross
   ipa: dɐnld // nor-kɹo͡ʊs
-  respell: DO-nuhld // NOR-crohs
+  respell: DO-nuhld // NOR-krohs
   notes: https://www.youtube.com/watch?v=qDhg36EU_Cs
 - id:
     govtrack: 400659
@@ -838,7 +838,7 @@
     govtrack: 412573
   name: Ted // Cruz
   ipa: tʰɛd // kɹu:z
-  respell: ted // crooz
+  respell: ted // krooz
   notes: https://www.youtube.com/watch?v=cEOKJRkhpxg
 - id:
     govtrack: 400416
@@ -923,7 +923,7 @@
     govtrack: 412727
   name: Scott // Taylor
   ipa: skɐt // tʰe͡ɪlɹ̩
-  respell: scot // TAY-ler
+  respell: skot // TAY-ler
   notes: https://www.youtube.com/watch?v=L0bifEo8d_A
 - id:
     govtrack: 400004
@@ -935,7 +935,7 @@
     govtrack: 400089
   name: John // Culberson
   ipa: d͡ʒɐn // kʰʌlbɹ̩sn̩
-  respell: jon // CUL-ber-suhn
+  respell: jon // KUL-ber-suhn
   notes: https://www.youtube.com/watch?v=Tcn9o9Ss74w
 - id:
     govtrack: 412534
@@ -971,7 +971,7 @@
     govtrack: 412477
   name: Scott // DesJarlais
   ipa: skɐt // de͡ɪʒɹ̩le͡ɪ
-  respell: scot // DAY-zher-lay
+  respell: skot // DAY-zher-lay
   notes: https://www.youtube.com/watch?v=f2k2rwFW1ks
 - id:
     govtrack: 412730
@@ -1225,7 +1225,7 @@
     govtrack: 412417
   name: Austin // Scott
   ipa: ɔ̞stən // skɐt
-  respell: AW-stuhn // scot
+  respell: AW-stuhn // skot
   notes: https://www.youtube.com/watch?v=_yUXvbDoNB4
 - id:
     govtrack: 412607
@@ -1286,7 +1286,7 @@
     govtrack: 400364
   name: Robert // Scott
   ipa: ɹɐbɹ̩t // skɐt
-  respell: RO-bert // scot
+  respell: RO-bert // skot
   notes: ''
 - id:
     govtrack: 412566
