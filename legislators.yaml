@@ -464,13 +464,13 @@
 - id:
     govtrack: 400054
   name: Richard // Burr
-  ipa: rɪt͡ʃɹ̩d // bɜɹ
+  ipa: rɪt͡ʃɹ̩d // bɝ
   respell: RI-cherd // ber
   notes: https://www.youtube.com/watch?v=tU2IBdCj9Lw
 - id:
     govtrack: 400032
   name: Marsha // Blackburn
-  ipa: maɹʃə // blækbɜɹn
+  ipa: maɹʃə // blækbɝn
   respell: MAR-shuh // BLAK-bern
   notes: https://www.youtube.com/watch?v=wxSPO4V7FYI
 - id:
@@ -1212,7 +1212,7 @@
 - id:
     govtrack: 412703
   name: Trey // Hollingsworth
-  ipa: t͡ʃɹe͡ɪ // ho͡ʊlɪŋgswɜɹθ
+  ipa: t͡ʃɹe͡ɪ // ho͡ʊlɪŋgswɝθ
   respell: chray // HOH-linggs-werth
   notes: 'https://www.youtube.com/watch?v=L-CqCh9_n1U Perhaps change ngg '
 - id:
@@ -1760,7 +1760,7 @@
 - id:
     govtrack: 400052
   name: Michael // Burgess
-  ipa: ma͡ɪkl̩ // bɜɹd͡ʒəs
+  ipa: ma͡ɪkl̩ // bɝd͡ʒəs
   respell: MĪ-kuhl // BER-juhs
   notes: https://www.youtube.com/watch?v=jZcTlOdQZ5M
 - id:
@@ -2109,7 +2109,7 @@
 - id:
     govtrack: 412601
   name: Bradley // Byrne
-  ipa: bɹædli // bɜɹn
+  ipa: bɹædli // bɝn
   respell: BRAD-lee // bern
   notes: https://www.youtube.com/watch?v=wXgXNFChGi8
 - id:
@@ -2247,7 +2247,7 @@
 - id:
     govtrack: 412315
   name: Kurt // Schrader
-  ipa: kɜɹt // ʃɹe͡ɪɾɹ̩
+  ipa: kɝt // ʃɹe͡ɪɾɹ̩
   respell: kert // SHRAY-der
   notes: https://www.youtube.com/watch?v=hz0xls5AI9c
 - id:
@@ -2398,7 +2398,7 @@
 - id:
     govtrack: 400411
   name: Michael // Turner
-  ipa: ma͡ɪkl̩ // tɜɹnɹ̩
+  ipa: ma͡ɪkl̩ // tɝnɹ̩
   respell: MĪ-kuhl // TER-ner
   notes: https://www.youtube.com/watch?v=oSRhfFnry4I
 - id:
@@ -2464,7 +2464,7 @@
 - id:
     govtrack: 400033
   name: Earl // Blumenauer
-  ipa: ɜɹl // bluməna͡ʊɹ̩
+  ipa: ɝl // bluməna͡ʊɹ̩
   respell: erl // BLOO-muh-now-er
   notes: https://www.youtube.com/watch?v=TWXeUrB3fhQ
 - id:
@@ -2512,7 +2512,7 @@
 - id:
     govtrack: 412533
   name: Tammy // Duckworth
-  ipa: tæ̃mi // dʌkwɜɹθ
+  ipa: tæ̃mi // dʌkwɝθ
   respell: TA-mee // DUK-werth
   notes: https://www.youtube.com/watch?v=dMbWVUXNF9c
 - id:
@@ -2566,7 +2566,7 @@
 - id:
     govtrack: 400041
   name: Madeleine // Bordallo
-  ipa: mæɾəlɪn // bɜɹdælo͡ʊ
+  ipa: mæɾəlɪn // bɝdælo͡ʊ
   respell: MA-duh-lin // ber-DA-loh
   notes: https://www.youtube.com/watch?v=5r32FYb-ytg
 - id:
@@ -2670,7 +2670,7 @@
 - id:
     govtrack: 412192
   name: Ed // Perlmutter
-  ipa: ɛd // pɜɹlmʌɾɹ̩
+  ipa: ɛd // pɝlmʌɾɹ̩
   respell: ed // PERL-muter
   notes: https://www.youtube.com/watch?v=iQOiLp5gSYY
 - id:
@@ -3174,7 +3174,7 @@
 - id:
     govtrack: 400349
   name: Dutch // Ruppersberger
-  ipa: dʌt͡ʃ // ɹupɹ̩zbɜɹgɹ̩
+  ipa: dʌt͡ʃ // ɹupɹ̩zbɝgɹ̩
   respell: duch // ROO-perz-ber-ger
   notes: https://www.youtube.com/watch?v=tHoUalUdVvs
 - id:
@@ -3210,7 +3210,7 @@
 - id:
     govtrack: 300076
   name: Patty // Murray
-  ipa: pæɾi // mɜɹi
+  ipa: pæɾi // mɝi
   respell: PA-tee // MER-ee
   notes: https://www.youtube.com/watch?v=W478Alr-ZCM
 - id:
