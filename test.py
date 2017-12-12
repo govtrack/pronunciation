@@ -61,7 +61,7 @@ ipa_symbols = list(sorted(ipa_symbols, key = lambda s : -len(unicodedata.normali
 
 for member in guide:
 	for ipa in member["ipa"].split(" // "):
-		pass # check_symbols(ipa, ipa_symbols)
+		check_symbols(ipa, ipa_symbols)
 
 # Test that the respellings use all and only
 # the symbols that we've documented that we
