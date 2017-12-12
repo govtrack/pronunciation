@@ -343,7 +343,7 @@
 - id:
     govtrack: 412388
   name: Tom // Graves
-  ipa: tɐm // gɹe͡ɪvz̥
+  ipa: tɐm // gɹe͡ɪvz
   respell: tom // grayvz
   notes: ''
 - id:
@@ -567,7 +567,7 @@
 - id:
     govtrack: 412631
   name: Garret // Graves
-  ipa: gæɹɪt̚ // gɹe͡ɪvz
+  ipa: gæɹɪt // gɹe͡ɪvz
   respell: GAR-it // grayvz
   notes: https://www.youtube.com/watch?v=ZeoMhqrdiEE
 - id:
@@ -1598,7 +1598,7 @@
 - id:
     govtrack: 400034
   name: Roy // Blunt
-  ipa: ɹɔ͡ɪ // blʌnt̚
+  ipa: ɹɔ͡ɪ // blʌnt
   respell: roy // blunt
   notes: https://www.youtube.com/watch?v=KRLw4em-Pig
 - id:
@@ -1754,7 +1754,7 @@
 - id:
     govtrack: 412690
   name: Matt // Gaetz
-  ipa: mæt̚ // ge͡ɪt͡s
+  ipa: mæt // ge͡ɪt͡s
   respell: mat // gayts
   notes: https://www.youtube.com/watch?v=85zxRkTQEkI
 - id:
@@ -1862,13 +1862,13 @@
 - id:
     govtrack: 412673
   name: Trent // Kelly
-  ipa: t͡ʃɹɛnt̚ // kɛli
+  ipa: t͡ʃɹɛnt // kɛli
   respell: chrent // KE-lee
   notes: https://www.youtube.com/watch?v=NkKZ2yQTWn4
 - id:
     govtrack: 400663
   name: Doris // Matsui
-  ipa: do͡ʊɹɪs // mæt̚'sui
+  ipa: do͡ʊɹɪs // mæt'sui
   respell: DOH-ris // MAT-soo-ee
   notes: https://www.youtube.com/watch?v=MxXdlZi44Ko Unsure on first vowel of first
     name
@@ -1923,7 +1923,7 @@
 - id:
     govtrack: 400158
   name: Sam // Graves
-  ipa: sæ̃m // gɹe͡ɪvz̥
+  ipa: sæ̃m // gɹe͡ɪvz
   respell: sam // grayvz
   notes: https://www.youtube.com/watch?v=OrTUgB_yiAg
 - id:
@@ -2073,7 +2073,7 @@
 - id:
     govtrack: 400141
   name: Trent // Franks
-  ipa: t͡ʃɹɛnt̚ // fɹæ̃ŋks
+  ipa: t͡ʃɹɛnt // fɹæ̃ŋks
   respell: chrent // frangks
   notes: https://www.youtube.com/watch?v=HojOAFO5BEk
 - id:
@@ -2211,7 +2211,7 @@
 - id:
     govtrack: 412554
   name: Heidi // Heitkamp
-  ipa: ha͡ɪdi // ha͡ɪt̚kæ̃mp
+  ipa: ha͡ɪdi // ha͡ɪtkæ̃mp
   respell: HĪ-dee // HĪT-kamp
   notes: https://www.youtube.com/watch?v=6hZH5G1e26Y
 - id:
@@ -2332,7 +2332,7 @@
 - id:
     govtrack: 412614
   name: Steve // Knight
-  ipa: stiv // na͡ɪt̚
+  ipa: stiv // na͡ɪt
   respell: steev // nīt
   notes: https://www.youtube.com/watch?v=U369CtI_1gU
 - id:
@@ -2356,7 +2356,7 @@
 - id:
     govtrack: 300018
   name: Maria // Cantwell
-  ipa: məɹiə // kæ̃nt̚wɛl
+  ipa: məɹiə // kæ̃ntwɛl
   respell: muh-REE-uh // KANT-wel
   notes: https://www.youtube.com/watch?v=R8KV3mh9sp8
 - id:
@@ -2470,7 +2470,7 @@
 - id:
     govtrack: 412605
   name: David // Brat
-  ipa: de͡ɪvɪd // bɹæt̚
+  ipa: de͡ɪvɪd // bɹæt
   respell: DAY-vid // brat
   notes: https://www.youtube.com/watch?v=OXHcea5JwmY
 - id:
@@ -2646,13 +2646,13 @@
 - id:
     govtrack: 400057
   name: Ken // Calvert
-  ipa: kɛn // kælvɹ̩t̚
+  ipa: kɛn // kælvɹ̩t
   respell: ken // KAL-vert
   notes: https://www.youtube.com/watch?v=gxQYSoQlJ2o
 - id:
     govtrack: 412689
   name: Lisa // Blunt Rochester
-  ipa: lisə // blunt̚ ɹɔt͡ʃɛstɹ̩
+  ipa: lisə // blunt ɹɔt͡ʃɛstɹ̩
   respell: LEE-suh // blunt RAW-ches-ter
   notes: https://www.youtube.com/watch?v=XwB1m1wkr0U Her district is 0?
 - id:
@@ -2772,7 +2772,7 @@
 - id:
     govtrack: 412571
   name: Matthew // Cartwright
-  ipa: mæθju // kaɹt̚ɹa͡ɪt̚
+  ipa: mæθju // kaɹtɹa͡ɪt
   respell: MATH-yoo // KART-rīt
   notes: https://www.youtube.com/watch?v=ES6lS5LTIaY MATT
 - id:
@@ -2928,7 +2928,7 @@
 - id:
     govtrack: 400071
   name: Steve // Chabot
-  ipa: stiv // ʃæbət̚
+  ipa: stiv // ʃæbət
   respell: steev // SHA-buht
   notes: https://www.youtube.com/watch?v=AOacgPViI_8
 - id:
@@ -3054,7 +3054,7 @@
 - id:
     govtrack: 400122
   name: Eliot // Engel
-  ipa: ɛliət̚ // ɛŋgəl
+  ipa: ɛliət // ɛŋgəl
   respell: E-lee-uht // ENG-guhl
   notes: https://www.youtube.com/watch?v=e6zr_LGtzXM
 - id:
