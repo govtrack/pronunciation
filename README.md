@@ -8,15 +8,9 @@ This project contains a pronunciation guide for the names of current and recent-
 ```yaml
 - id:
     govtrack: 400623
-  name:
-    first: Debbie
-    last: Wasserman Schultz
-  ipa:
-    first: dɛbi
-    last: wasɹ̩mən ʃʊlt͡s
-  respell:
-    first: DE-bee
-    last: WAS-er-muhn shuults
+  name: Debbie // Wasserman Schultz
+  ipa: dɛbi // wasɹ̩mən ʃʊlt͡s
+  respell: DE-bee // WAS-er-mun shuults
   notes: https://www.youtube.com/watch?v=ZVmGudgxiRg
 ```
 
