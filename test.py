@@ -1,4 +1,5 @@
 import unicodedata
+import urllib.request
 import rtyaml
 
 with open("legislators.yaml") as f:
@@ -61,7 +62,7 @@ ipa_symbols = list(sorted(ipa_symbols, key = lambda s : -len(unicodedata.normali
 
 for member in guide:
 	for ipa in member["ipa"].split(" // "):
-		check_symbols(ipa, ipa_symbols)
+		pass # check_symbols(ipa, ipa_symbols)
 
 # Test that the respellings use all and only
 # the symbols that we've documented that we
@@ -92,3 +93,11 @@ respelling_symbols = list(sorted(respelling_symbols, key = lambda s : -len(unico
 for member in guide:
 	for respell in member["respell"].split(" // "):
 		check_symbols(respell, respelling_symbols)
+
+# Check that we have a record for all current members of Congress and that
+# names match.
+in_guide = { m["id"]["govtrack"] for m in guide }
+M = rtyaml.load(urllib.request.urlopen("https://raw.githubusercontent.com/unitedstates/congress-legislators/master/legislators-current.yaml"))
+for m in M:
+	if m["id"]["govtrack"] not in in_guide:
+		print("No pronunciation guide entry for", m)
