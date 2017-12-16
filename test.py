@@ -92,7 +92,27 @@ respelling_symbols = list(sorted(respelling_symbols, key = lambda s : -len(unico
 
 for member in guide:
 	for respell in member["respell"].split(" // "):
+		# Check that only valid respelling letter( combination)s are present.
 		check_symbols(respell, respelling_symbols)
+
+		# Check capitalization - each syllable must be either upper or lower
+		# and in each word exactly one syllable must have primary stress
+		# unless it's only one syllable and then none are indicated so.
+		for word in respell.split(" "):
+			syls = word.split("-")
+			nstr = 0
+			for syl in syls:
+				if syl == syl.upper():
+					nstr += 1
+				elif syl == syl.lower():
+					pass
+				else:
+					error("invalid casing in " + word)
+			if len(syls) == 1 and nstr > 0:
+				error("Single-syllable word should not be represented in uppercase: " + word)
+			if len(syls) > 1 and nstr != 1:
+				error("Word should have exactly one primary-stressed syllable: " + word)
+			
 
 # Check that we have a record for all current members of Congress and that
 # names match.

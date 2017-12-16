@@ -176,7 +176,7 @@
     govtrack: 412706
   name: Mike // Johnson
   ipa: ma͡ɪk // d͡ʒɐnsn̩
-  respell: mīk // jon-sin
+  respell: mīk // JON-sin
   notes: ''
 - id:
     govtrack: 412382
@@ -284,7 +284,7 @@
     govtrack: 412681
   name: Catherine // Cortez Masto
   ipa: kæθɹɪn // koɹtɛz mæstɹo
-  respell: KATH-rin // korTEZ- mas-TOH
+  respell: KATH-rin // kor-TEZ mas-TOH
   notes: ''
 - id:
     govtrack: 412688
@@ -441,7 +441,7 @@
     govtrack: 412269
   name: Bill // Cassidy
   ipa: bɪl // kæsɪdi
-  respell: bil // KA-si-DEE
+  respell: bil // KA-si-dee
   notes: https://www.youtube.com/watch?v=ZXEaRTNncV0
 - id:
     govtrack: 412214
@@ -580,7 +580,7 @@
     govtrack: 400344
   name: Ileana // Ros-Lehtinen
   ipa: ɪlianə // ɹɔsle͡ɪtnən
-  respell: i-lee-AH-nuh // RAWS-LAYT-nun
+  respell: i-lee-AH-nuh // raws LAYT-nun
   notes: https://www.youtube.com/watch?v=G4pAsKbnxQM
 - id:
     govtrack: 400124
@@ -592,7 +592,7 @@
     govtrack: 400366
   name: José // Serrano
   ipa: ho͡ʊze͡ɪ // səɹano͡ʊ
-  respell: hoh-zay // suh-RAH-noh
+  respell: hoh-ZAY // suh-RAH-noh
   notes: ''
 - id:
     govtrack: 412550
@@ -622,7 +622,7 @@
     govtrack: 400413
   name: Tom // Udall
   ipa: tɐm // judɔl
-  respell: TOM // YOO-dawl
+  respell: tom // YOO-dawl
   notes: https://www.youtube.com/watch?v=jCdN-QrxVdw
 - id:
     govtrack: 412618
@@ -646,13 +646,13 @@
     govtrack: 412639
   name: Tom // Emmer
   ipa: tɐm // ɛmɹ̩
-  respell: TOM // E-mer
+  respell: tom // E-mer
   notes: https://www.youtube.com/watch?v=_7tgNKxpNrU
 - id:
     govtrack: 412691
   name: Neal // Dunn
   ipa: nil // dʌn
-  respell: NEEL // dun
+  respell: neel // dun
   notes: https://www.youtube.com/watch?v=3e-IemrdWtQ
 - id:
     govtrack: 400313
@@ -820,7 +820,7 @@
     govtrack: 412644
   name: Bonnie // Watson Coleman
   ipa: bɐni // wɐtsn̩ ko͡ʊlmən
-  respell: BO-nee // Wot-suhn KOHL-mun
+  respell: BO-nee // WOT-suhn KOHL-mun
   notes: https://www.youtube.com/watch?v=Yx0H6-5oJn4
 - id:
     govtrack: 412629
@@ -868,7 +868,7 @@
     govtrack: 412378
   name: Alan // Franken
   ipa: ælən // fɹæ̃ŋkn̩
-  respell: AL-uhn // frank-uhn
+  respell: AL-uhn // FRANK-uhn
   notes: https://www.youtube.com/watch?v=9W73w2HcvVM
 - id:
     govtrack: 400013
@@ -1104,7 +1104,7 @@
     govtrack: 400350
   name: Bobby // Rush
   ipa: bɐbi // ɹʌʃ
-  respell: BO-bee // RUSH
+  respell: BO-bee // rush
   notes: https://www.youtube.com/watch?v=45VSTc90CYk
 - id:
     govtrack: 412512
@@ -1219,7 +1219,7 @@
     govtrack: 412319
   name: Paul // Tonko
   ipa: pɔl // tɐ̃ŋko͡ʊ
-  respell: pawl // TONG-KOH
+  respell: pawl // TONG-koh
   notes: https://www.youtube.com/watch?v=T_9xkQqPfxM
 - id:
     govtrack: 412417
@@ -1280,7 +1280,7 @@
     govtrack: 412557
   name: Ann // Kuster
   ipa: æ̃n // kʌstɹ̩
-  respell: AN // KUS-ter
+  respell: an // KUS-ter
   notes: https://www.youtube.com/watch?v=HwarEHeIJQk Goes by Annie
 - id:
     govtrack: 400364
@@ -1647,7 +1647,7 @@
     govtrack: 412219
   name: Carol // Shea-Porter
   ipa: kæɹəl // ʃe͡ɪ pɔɹɾɹ̩
-  respell: KA-rul // SHAY POR-ter
+  respell: KA-rul // shay POR-ter
   notes: https://www.youtube.com/watch?v=iRQA8mTtQq0
 - id:
     govtrack: 400245
@@ -1749,7 +1749,7 @@
     govtrack: 412199
   name: Henry // Johnson
   ipa: hɛnɹi // d͡ʒɐnsn̩
-  respell: HEN-ree // jon-sin
+  respell: HEN-ree // JON-sin
   notes: https://www.youtube.com/watch?v=8V7zgintQrQ HANK
 - id:
     govtrack: 412690
@@ -2068,7 +2068,7 @@
     govtrack: 412496
   name: Ron // Johnson
   ipa: ɹɐn // d͡ʒɐnsn̩
-  respell: ron // jon-sin
+  respell: ron // JON-sin
   notes: https://www.youtube.com/watch?v=HojOAFO5BEk
 - id:
     govtrack: 400141
@@ -2387,7 +2387,7 @@
     govtrack: 400204
   name: Eddie // Johnson
   ipa: ɛdi // d͡ʒɐnsn̩
-  respell: E-dee // jon-sin
+  respell: E-dee // JON-sin
   notes: https://www.youtube.com/watch?v=txACW-NPFak
 - id:
     govtrack: 412190
@@ -2501,7 +2501,7 @@
     govtrack: 412272
   name: Gerald // Connolly
   ipa: d͡ʒɛɹəld // kɐnəli
-  respell: JE-Ruhld // KO-NUH-lee
+  respell: JE-ruhld // KO-nuh-lee
   notes: https://www.youtube.com/watch?v=KcZJ0CooiTM GERRY
 - id:
     govtrack: 412526
@@ -2719,7 +2719,7 @@
     govtrack: 400291
   name: Richard // Neal
   ipa: ɹɪt͡ʃɹ̩d // nil
-  respell: RI-cherd // NEEL
+  respell: RI-cherd // neel
   notes: https://www.youtube.com/watch?v=0WPAWjdw6Jw
 - id:
     govtrack: 300019
@@ -2827,7 +2827,7 @@
     govtrack: 412646
   name: Lee // Zeldin
   ipa: li // zɛldən
-  respell: LEE // ZEL-dun
+  respell: lee // ZEL-dun
   notes: https://www.youtube.com/watch?v=cF4dYTKkPNU
 - id:
     govtrack: 412256
@@ -3079,7 +3079,7 @@
     govtrack: 400206
   name: Sam // Johnson
   ipa: sæ̃m // d͡ʒɐnsn̩
-  respell: sam // jon-sin
+  respell: sam // JON-sin
   notes: https://www.youtube.com/watch?v=p3IqptBnuHU
 - id:
     govtrack: 412510
@@ -3097,7 +3097,7 @@
     govtrack: 400237
   name: Barbara // Lee
   ipa: baɹbɹə // li
-  respell: BAR-bruh // LEE
+  respell: BAR-bruh // lee
   notes: https://www.youtube.com/watch?v=ovXCnUNFEY4
 - id:
     govtrack: 412189

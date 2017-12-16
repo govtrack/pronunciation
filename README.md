@@ -53,4 +53,8 @@ The record has four parts:
 | yoo   | unit
 | yr    | fire
 
-In addition, capitalization is used to indicate primary stress, syllables are separated by dashes, and multi-word names, whether separated by dashes or spaces, are broken out by spaces.
+In addition:
+
+* Syllables are separated by dashes.
+* Capitalization is used to indicate primary stress, but in single-syllable names the entire name is lowercase.
+* Multi-word names, whether separated by dashes or spaces, are broken out by spaces.
