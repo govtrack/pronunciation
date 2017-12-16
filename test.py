@@ -1,5 +1,6 @@
 import unicodedata
 import urllib.request
+import re
 import rtyaml
 
 with open("legislators.yaml") as f:
@@ -112,6 +113,18 @@ for member in guide:
 				error("Single-syllable word should not be represented in uppercase: " + word)
 			if len(syls) > 1 and nstr != 1:
 				error("Word should have exactly one primary-stressed syllable: " + word)
+
+	# Check that the respelling has the same number of name/word parts as the original name.
+	name = member["name"].split(" // ")
+	respell = member["respell"].split(" // ")
+	if len(name) != len(respell):
+		error("Respelling doesn't have the same number of name parts as the name: {} and {}".format(name, respell))
+	else:
+		for name, respell in zip(name, respell):
+			nw = re.split("[ -]", name) # dashes and spaces are all broken out...
+			rw = respell.split(" ") # only as spaces
+			if len(nw) != len(rw):
+				error("Respelling doesn't have the same number of words as the name: {} and {}".format(nw, rw))
 			
 
 # Check that we have a record for all current members of Congress and that
