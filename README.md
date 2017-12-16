@@ -46,12 +46,13 @@ The record has four parts:
 | or    | corn    | th        | thin    |
 | ow    | cow     | t͡h        | this    |
 | oy    | boy     | v         | van     |
-| u     | cup     | w         | will    |
-| uh    | 'a' in along | y    | yes     |
-| uu    | book    | z         | zebra   |
-| y     | cry     | zh        | vision  |
-| yoo   | unit
+| u/uh  | cup     | w         | will    |
+| uu    | book    | y         | yes     |
+| y     | cry     | z         | zebra   |
+| yoo   | unit    | zh        | vision  |
 | yr    | fire
+
+We use `u` and `uh` for both the stressed and unstressed mid central vowel, prefering `u` when the syllable has both an onset and a coda for readability reasons.
 
 In addition:
 
