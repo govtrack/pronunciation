@@ -319,7 +319,7 @@
 - id:
     govtrack: 412538
   name: Jackie // Walorski
-  ipa: 'd͡ʒæki // wəloɹski'
+  ipa: d͡ʒæki // wəloɹski
   respell: JAK-ee // wuh-LOR-skee
   notes: https://www.youtube.com/watch?v=7mEcdGIqV-o
 - id:
@@ -337,7 +337,7 @@
 - id:
     govtrack: 412242
   name: Amy // Klobuchar
-  ipa: 'e͡ɪmi // klo͡ʊbəʃaɹ'
+  ipa: e͡ɪmi // klo͡ʊbəʃaɹ
   respell: AY-mee // KLOH-buh-shar
   notes: https://www.youtube.com/watch?v=2b63Mqi99uk
 - id:
@@ -795,7 +795,7 @@
 - id:
     govtrack: 412396
   name: Terri // Sewell
-  ipa: 'tɛɹi // suwl̩'
+  ipa: tɛɹi // suwl̩
   respell: TE-ree // SOO-uhl
   notes: https://www.youtube.com/watch?v=2FQvjTQRIp4
 - id:
@@ -1036,7 +1036,7 @@
 - id:
     govtrack: 412708
   name: Jamie // Raskin
-  ipa: 'd͡ʒɛ͡ɪmi // ɹæskɪn'
+  ipa: d͡ʒɛ͡ɪmi // ɹæskɪn
   respell: JAY-mee // RAS-kin
   notes: https://www.youtube.com/watch?v=Gd7gLk8O-s4
 - id:
@@ -1953,7 +1953,7 @@
 - id:
     govtrack: 400142
   name: Rodney // Frelinghuysen
-  ipa: 'ɹɐdni // fɹilɪŋha͡ʊzn̩'
+  ipa: ɹɐdni // fɹilɪŋha͡ʊzn̩
   respell: ROD-nee // FREE-ling-how-zun
   notes: https://www.youtube.com/watch?v=PfopTwA2Xug
 - id:
@@ -3250,4 +3250,3 @@
   name: John // Curtis
   ipa: d͡ʒɐn // kɹ̩tɪs
   respell: jon // KER-tis
-
