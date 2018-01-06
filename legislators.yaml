@@ -3250,3 +3250,13 @@
   name: John // Curtis
   ipa: d͡ʒɐn // kɹ̩tɪs
   respell: jon // KER-tis
+- id:
+    govtrack: 412741
+  name: Doug // Jones
+  ipa: dʌg // d͡ʒo͡ʊnz
+  respell: dug // johnz
+- id:
+    govtrack: 412742
+  name: Tina // Smith
+  ipa: tinə // smɪθ
+  respell: TEE-nuh // smith

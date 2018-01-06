@@ -133,4 +133,5 @@ in_guide = { m["id"]["govtrack"] for m in guide }
 M = rtyaml.load(urllib.request.urlopen("https://raw.githubusercontent.com/unitedstates/congress-legislators/master/legislators-current.yaml"))
 for m in M:
 	if m["id"]["govtrack"] not in in_guide:
-		print("No pronunciation guide entry for", m)
+		print("No pronunciation guide entry for:")
+		print(rtyaml.dump(m))
