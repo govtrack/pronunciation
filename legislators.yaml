@@ -3260,3 +3260,13 @@
   name: Tina // Smith
   ipa: tinə // smɪθ
   respell: TEE-nuh // smith
+- id:
+    govtrack: 412743
+  name: Cindy // Hyde-Smith
+  ipa: sɪndi // ha͡ɪd smɪθ
+  respell: SIN-dee // hīd smith
+- id:
+    govtrack: 412744
+  name: Conor // Lamb
+  ipa: kanɹ̩ // læ̃m
+  respell: KAHN-er // lam
