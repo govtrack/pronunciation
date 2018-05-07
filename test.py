@@ -75,7 +75,7 @@ respelling_symbols = {
 	"u", "uh", "uu", "y", "yoo", "yoor", "yr",
 
 	"b", "ch", "d", "f", "g", "h", "j", "k", "kh",
-	"l", "m", "n", "ng", "nk", "p", "r", "s", "t",
+	"l", "m", "n", "ng", "nk", "p", "r", "s", "sh", "t",
 	"th", "t͡h", "v", "w", "y", "z", "zh",
 
 	"-", " ",
