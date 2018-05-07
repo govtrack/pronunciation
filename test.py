@@ -9,7 +9,11 @@ with open("legislators.yaml") as f:
 def error(msg):
 	print(msg)
 
-def check_symbols(string, symbols):
+def parse_symbols(string, symbols):
+	# Parse the string into a list of symbols. Since some symbols
+	# are prefixes of other symbols, assume symbols is sorted in
+	# reverse length order and return the longest matching symbol.
+
 	# check that string is already NFC normalized
 	if string != unicodedata.normalize("NFC", string):
 		error("{} is not Unicode NFC-normalized.".format(string))
@@ -19,6 +23,7 @@ def check_symbols(string, symbols):
 	while i < len(string):
 		for s in symbols: # symbols must be sorted in reverse length order
 			if string[i:i+len(s)] == s:
+				yield s
 				i += len(s)
 				break
 		else:
@@ -30,7 +35,7 @@ def check_symbols(string, symbols):
 				string,
 				("after " + left + " ") if left else "",
 				right))
-			return
+			return []
 
 # Test that the IPA transcriptions use a reasonable
 # and consistent sub-set of IPA. Use symbols close to
@@ -57,29 +62,79 @@ for c in set(ipa_symbols):
 # Perform unicode normalization so that composable characters are composed.
 ipa_symbols = { unicodedata.normalize("NFC", s) for s in ipa_symbols }
 
-# Sort in reverse length order so that check_symbols chops off
+# Sort in reverse length order so that parse_symbols chops off
 # multi-glyph symbols before single-glyph symbols.
 ipa_symbols = list(sorted(ipa_symbols, key = lambda s : -len(unicodedata.normalize("NFD", s))))
 
 for member in guide:
 	for ipa in member["ipa"].split(" // "):
-		pass # check_symbols(ipa, ipa_symbols)
+		pass # parse_symbols(ipa, ipa_symbols)
 
 # Test that the respellings use all and only
 # the symbols that we've documented that we
 # use.
-respelling_symbols = {
+respelling_vowels = {
 	"a", "ah", "air", "ar", "aw", "ay",
 	"e", "ee", "eer", "er", "ew", "i", "ī",
 	"o", "oh", "oi", "oo", "oor", "or", "ow", "oy",
 	"u", "uh", "uu", "y", "yoo", "yoor", "yr",
-
+}
+respelling_consonants = {
 	"b", "ch", "d", "f", "g", "h", "j", "k", "kh",
 	"l", "m", "n", "ng", "nk", "p", "r", "s", "sh", "t",
 	"th", "t͡h", "v", "w", "y", "z", "zh",
-
-	"-", " ",
 }
+respelling_symbols = \
+	  respelling_vowels \
+	| respelling_consonants \
+	| { "-", " " } \
+
+# For syllabification checks, define valid English onsets, based on
+# the Penn Phonetics Toolkit, by Joshua Tauberer and based on code by Charles Yang,
+# plus other onsets in non-Anglican names.
+respelling_onsets = {
+	'p', 't', 'k', 'b', 'd', 'g', 'f', 'v', 'th', 't͡h', 's', 'z', 'sh', 'ch', 'j', 'zh',
+	'm', 'n', 'r', 'l', 'h', 'w', 'y', 'p r', 't r', 'ch r', 'k r', 'b r', 'd r', 'g r', 'f r',
+	'th r', 'sh r', 'j r', 'p l', 'k l', 'b l', 'g l', 'f l', 's l', 't w', 'k w', 'd w',
+	's w', 's p', 's t', 's k', 's f', 's m', 's n', 'g w', 'sh n', 'sh w', 's p r', 's p l',
+	's t r', 'sh t r', 's k r', 's k w', 's k l', 'th w', 'p y', 'k y', 'b y', 'f y',
+	'h y', 'v y', 'th y', 'm y', 's p y', 's k y', 'g y', 'h w', 't s', ''
+}
+def validate_syllable(syl):
+	# Check stress --- all phonemes must be uppercase or all lowercase.
+	if syl == syl.upper():
+		pass
+	elif syl == syl.lower():
+		pass
+	else:
+		error("invalid casing in " + word)
+
+	# Split syllable into phonemes.
+	syl = list(parse_symbols(syl, respelling_symbols))
+
+	# Split syllable into onset, nucleus, and coda.
+	onset = []
+	nucleus = []
+	coda = []
+	for p in syl:
+		if p.lower() in respelling_vowels:
+			if coda:
+				error("invalid syllable structure " + str(syl))
+			else:
+				nucleus.append(p)
+		elif p.lower() in respelling_consonants:
+			if nucleus:
+				coda.append(p)
+			else:
+				onset.append(p)
+		else:
+			raise ValueError(p)
+
+	# Validate onset and nucleus.
+	onset = " ".join(onset)
+	if onset.lower() not in respelling_onsets:
+		error("invalid syllable structure: {} not a valid onset in {}".format(onset, syl))
+
 
 # Perform unicode normalization so that composable characters are composed.
 respelling_symbols = { unicodedata.normalize("NFC", s) for s in respelling_symbols }
@@ -87,32 +142,30 @@ respelling_symbols = { unicodedata.normalize("NFC", s) for s in respelling_symbo
 # Add uppercase of all the lowercase entries above.
 for s in set(respelling_symbols): respelling_symbols.add(s.upper())
 
-# Sort in reverse length order so that check_symbols chops off
+# Sort in reverse length order so that parse_symbols chops off
 # multi-glyph symbols before single-glyph symbols.
 respelling_symbols = list(sorted(respelling_symbols, key = lambda s : -len(unicodedata.normalize("NFD", s))))
 
 for member in guide:
 	for respell in member["respell"].split(" // "):
 		# Check that only valid respelling letter( combination)s are present.
-		check_symbols(respell, respelling_symbols)
+		parse_symbols(respell, respelling_symbols)
 
 		# Check capitalization - each syllable must be either upper or lower
 		# and in each word exactly one syllable must have primary stress
 		# unless it's only one syllable and then none are indicated so.
 		for word in respell.split(" "):
 			syls = word.split("-")
-			nstr = 0
 			for syl in syls:
-				if syl == syl.upper():
-					nstr += 1
-				elif syl == syl.lower():
-					pass
-				else:
-					error("invalid casing in " + word)
-			if len(syls) == 1 and nstr > 0:
+				# Check that the syllabification is valid. Check each
+				# syllable's onset and nucleus and that the stress
+				# is consistent across the phonemes.
+				validate_syllable(syl)
+			if len(syls) == 1 and word == word.upper():
 				error("Single-syllable word should not be represented in uppercase: " + word)
-			if len(syls) > 1 and nstr != 1:
+			if len(syls) > 1 and len([syl for syl in syls if syl == syl.upper()]) != 1:
 				error("Word should have exactly one primary-stressed syllable: " + word)
+
 
 	# Check that the respelling has the same number of name/word parts as the original name.
 	name = member["name"].split(" // ")
