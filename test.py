@@ -19,6 +19,11 @@ def parse_symbols(string, symbols):
 		error("{} is not Unicode NFC-normalized.".format(string))
 		return
 
+	# and has no leading/trailing spaces
+	if string != string.strip():
+		error("{} has a leading or trailing space.".format(string))
+		return
+
 	i = 0
 	while i < len(string):
 		for s in symbols: # symbols must be sorted in reverse length order
@@ -42,12 +47,13 @@ def parse_symbols(string, symbols):
 # what's recognized by Amazon Polly's American English.
 ipa_symbols = {
   "b", "d", "d͡ʒ", "ð", "f", "g", "h", "j", "k",
-  "l", "m", "n", "ŋ", "p", "ɹ", "ɾ", "s", "ʃ", "t",
+  "l", "m", "n", "ŋ", "p", "ɹ", "ɹ̜", "ɾ", "s", "ʃ", "t",
   "t͡ʃ", "t͡s", "θ", "v", "w", "z", "ʒ",
   "a", "ɐ", # TODO REMOVE?
   "ɑ", "æ", "æ̃", "aɪ", "aʊ", "ɛ", "ə", "eɪ", "ɚ", "ɝ",
   "i", "ɪ", "ɔ", "ɔɪ", "oʊ", "u", "ʊ", "ʌ",
-  "o", # TODO REMOVE?
+  "d͡z", "o", # TODO REMOVE?
+  "ɔ̃",
   "\u0329", # COMBINING VERTICAL LINE BELOW
   " ", # separates multi-word names
 }
@@ -58,16 +64,21 @@ for c in set(ipa_symbols):
 	if len(c) == 2:
 		ipa_symbols.add(c[0] + "\u0361" + c[1])
 
-# Perform unicode normalization so that composable characters are composed.
+# Perform unicode normalization so that composable characters are composed,
+# since we expect all data to be normalized.
 ipa_symbols = { unicodedata.normalize("NFC", s) for s in ipa_symbols }
 
 # Sort in reverse length order so that parse_symbols chops off
 # multi-glyph symbols before single-glyph symbols.
 ipa_symbols = list(sorted(ipa_symbols, key = lambda s : -len(unicodedata.normalize("NFD", s))))
 
+# Check that the IPA transriptions only used the white-listed symbols.
+symcount = { }
 for member in guide:
 	for ipa in member["ipa"].split(" // "):
-		pass # parse_symbols(ipa, ipa_symbols)
+		for s in parse_symbols(ipa, ipa_symbols):
+			symcount[s] = symcount.get(s, 0) + 1
+#print(" ".join(sorted(symcount.keys())))
 
 # Test that the respellings use all and only
 # the symbols that we've documented that we

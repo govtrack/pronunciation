@@ -289,7 +289,7 @@
 - id:
     govtrack: 412688
   name: Luis // Correa
-  ipa: luɪs // kəɹeə
+  ipa: luɪs // kəɹeɪə
   respell: loo-EES // koh-RAY-uh
   notes: ''
 - id:
@@ -397,7 +397,7 @@
 - id:
     govtrack: 400244
   name: Frank // LoBiondo
-  ipa: fɹæ̃ŋk // lo͡ʊbʲɐndo͡ʊ
+  ipa: fɹæ̃ŋk // lo͡ʊbiɐndo͡ʊ
   respell: frank // loh-bee-ON-doh
   notes: https://www.youtube.com/watch?v=VEpcSmTILq0 IS NG right choice?
 - id:
@@ -519,7 +519,7 @@
 - id:
     govtrack: 412666
   name: David // Perdue
-  ipa: de͡ɪvɪd // pɹ̩dʉ
+  ipa: de͡ɪvɪd // pɹ̩du
   respell: DAY-vid // per-DOO
   notes: https://www.youtube.com/watch?v=_ofyQ6B-CFg
 - id:
@@ -597,7 +597,7 @@
 - id:
     govtrack: 412550
   name: Richard // Hudson
-  ipa: ɹiət͡ʃɹ̩d // hɜdsn̩
+  ipa: ɹiət͡ʃɹ̩d // hʌdsn̩
   respell: RI-cherd // HUD-sun
   notes: https://www.youtube.com/watch?v=fgMuGhKhp3A Strong Southern Accent
 - id:
@@ -903,7 +903,7 @@
 - id:
     govtrack: 412725
   name: Vicente // Gonzalez
-  ipa: visente // gɔ̃nsales
+  ipa: visɛntɛ // gɔ̃nsalɛs
   respell: VEE-sen-te // GAWN-sah-les
   notes: https://www.youtube.com/watch?v=mpj4hoorz60 POD doesn’t allow for an accurate
     transcription of Spanish e, i.e. [e]
@@ -1036,7 +1036,7 @@
 - id:
     govtrack: 412708
   name: Jamie // Raskin
-  ipa: d͡ʒɛ͡ɪmi // ɹæskɪn
+  ipa: d͡ʒe͡ɪmi // ɹæskɪn
   respell: JAY-mee // RAS-kin
   notes: https://www.youtube.com/watch?v=Gd7gLk8O-s4
 - id:
@@ -1170,7 +1170,7 @@
 - id:
     govtrack: 412723
   name: Jennifer // González-Colón
-  ipa: d͡ʒɛnəfɹ̩ // gɐnsalɛs co͡ʊlo͡ʊn
+  ipa: d͡ʒɛnəfɹ̩ // gɐnsalɛs ko͡ʊlo͡ʊn
   respell: JEN-i-fer // gon-SAH-les koh-LOHN
   notes: https://www.youtube.com/watch?v=8mNnZ90k2pg Goes by Gonzalez
 - id:
@@ -1206,7 +1206,7 @@
 - id:
     govtrack: 412472
   name: Jeff // Duncan
-  ipa: d͡ʒɛf // dʌ̃ŋkən
+  ipa: d͡ʒɛf // dʌŋkən
   respell: jef // DUN-kun
   notes: https://www.youtube.com/watch?v=TROQcrn3Tmc
 - id:
@@ -1218,13 +1218,13 @@
 - id:
     govtrack: 412319
   name: Paul // Tonko
-  ipa: pɔl // tɐ̃ŋko͡ʊ
+  ipa: pɔl // tɐŋko͡ʊ
   respell: pawl // TONG-koh
   notes: https://www.youtube.com/watch?v=T_9xkQqPfxM
 - id:
     govtrack: 412417
   name: Austin // Scott
-  ipa: ɔ̞stən // skɐt
+  ipa: ɔstən // skɐt
   respell: AW-stun // skot
   notes: https://www.youtube.com/watch?v=_yUXvbDoNB4
 - id:
@@ -1459,7 +1459,7 @@
 - id:
     govtrack: 412511
   name: Jared // Huffman
-  ipa: d͡ʒæ̠ɹɪd // hʌfmn̩
+  ipa: d͡ʒæɹɪd // hʌfmn̩
   respell: JAR-id // HUF-mihn
   notes: https://www.youtube.com/watch?v=VN0HJVPWeQU
 - id:
@@ -1616,7 +1616,7 @@
 - id:
     govtrack: 412729
   name: Thomas // Garrett
-  ipa: tɐmɪs // gæɹɪt̚
+  ipa: tɐmɪs // gæɹɪt
   respell: TOM-is // GAR-it
   notes: https://www.youtube.com/watch?v=iem-pXHGnP8
 - id:
@@ -1730,7 +1730,7 @@
 - id:
     govtrack: 400657
   name: Henry // Cuellar
-  ipa: hɛnɹi // kwejaɹ
+  ipa: hɛnɹi // kwɛjaɹ
   respell: HEN-ree // kwe-YAHR
   notes: 'https://en.wikipedia.org/wiki/Henry_Cuellar BUT: https://www.youtube.com/watch?v=Nk2UEWcj7lY'
 - id:
@@ -1790,7 +1790,7 @@
 - id:
     govtrack: 409888
   name: Bill // Shuster
-  ipa: bɪl // ʃu̜ʃtɹ̩
+  ipa: bɪl // ʃuʃtɹ̩
   respell: bil // SHOO-ster
   notes: https://www.youtube.com/watch?v=HYrdDkGxohc BILL
 - id:
@@ -1959,7 +1959,7 @@
 - id:
     govtrack: 412580
   name: Filemon // Vela
-  ipa: filemon // vela
+  ipa: filɛmon // vɛla
   respell: FEE-le-mon // VE-la
   notes: https://www.youtube.com/watch?v=sWntXjzyDQ8 Spanish pronunciation
 - id:
@@ -2253,7 +2253,7 @@
 - id:
     govtrack: 400154
   name: Bob // Goodlatte
-  ipa: bɐb // gʊdlæt̚
+  ipa: bɐb // gʊdlæt
   respell: bob // GUUD-lat
   notes: https://www.youtube.com/watch?v=TvFGytp5hMA
 - id:
@@ -2488,7 +2488,7 @@
 - id:
     govtrack: 412707
   name: Anthony // Brown
-  ipa: æ̃n̪θəni // bɹa͡ʊn
+  ipa: æ̃nθəni // bɹa͡ʊn
   respell: AN-thuh-nee // brown
   notes: https://www.youtube.com/watch?v=cYpAoJq4Wa0
 - id:
@@ -2548,7 +2548,7 @@
 - id:
     govtrack: 412444
   name: Vicky // Hartzler
-  ipa: vɪki // haɹtsleɹ
+  ipa: vɪki // haɹtslɛɹ
   respell: VIK-kee // HARTS-ler
   notes: https://www.youtube.com/watch?v=Lwa1szJhHNY
 - id:
@@ -2596,7 +2596,7 @@
 - id:
     govtrack: 400116
   name: John // Duncan
-  ipa: d͡ʒɐn // dʌ̃ŋkən
+  ipa: d͡ʒɐn // dʌŋkən
   respell: jon // DUN-kun
   notes: https://www.youtube.com/watch?v=oicpVoNzsE4
 - id:
@@ -2682,7 +2682,7 @@
 - id:
     govtrack: 400289
   name: Jerrold // Nadler
-  ipa: d͡ʒɜɹəld // nædlɹ̩
+  ipa: d͡ʒɛɹəld // nædlɹ̩
   respell: JER-uhld // NAD-ler
   notes: https://www.youtube.com/watch?v=TTPeQpEY36c JERRY
 - id:
@@ -2700,7 +2700,7 @@
 - id:
     govtrack: 412702
   name: Jim // Banks
-  ipa: d͡ʒɪm // bãŋks
+  ipa: d͡ʒɪm // baŋks
   respell: jim // banks
   notes: https://www.youtube.com/watch?v=4wYURbfrGDs
 - id:
@@ -2766,7 +2766,7 @@
 - id:
     govtrack: 412196
   name: Vern // Buchanan
-  ipa: vɛɹn // bjʉkænən
+  ipa: vɛɹn // bjukænən
   respell: vern // byoo-KAN-uhn
   notes: https://www.youtube.com/watch?v=ChQHsIi-1-c
 - id:
@@ -2976,7 +2976,7 @@
 - id:
     govtrack: 412653
   name: John // Ratcliffe
-  ipa: d͡ʒɐn // ɹæt̚klɪf
+  ipa: d͡ʒɐn // ɹætklɪf
   respell: jon // RAT-klif
   notes: https://www.youtube.com/watch?v=7Wws5w2gdSE
 - id:
@@ -3000,7 +3000,7 @@
 - id:
     govtrack: 412255
   name: Robert // Wittman
-  ipa: ɹɐbɹ̩t // wɪt̚mən
+  ipa: ɹɐbɹ̩t // wɪtmən
   respell: RO-bert // WIT-mun
   notes: https://www.youtube.com/watch?v=w733BgpQnEk ROB
 - id:
@@ -3072,7 +3072,7 @@
 - id:
     govtrack: 412696
   name: Val // Demings
-  ipa: vælˠ // dɛmɪŋz
+  ipa: væl // dɛmɪŋz
   respell: val // DE-mingz
   notes: https://www.youtube.com/watch?v=U4Pcp7iFTe8
 - id:
@@ -3108,7 +3108,7 @@
 - id:
     govtrack: 412552
   name: Mark // Meadows
-  ipa: maɹk // mɛdo͡ʊʷz
+  ipa: maɹk // mɛdo͡ʊz
   respell: mahrk // ME-dohwz
   notes: https://www.youtube.com/watch?v=aDSRNSUIpZA
 - id:
@@ -3216,7 +3216,7 @@
 - id:
     govtrack: 412283
   name: Duncan // Hunter
-  ipa: dʌ̃ŋkən // hʌɾɹ̩
+  ipa: dʌŋkən // hʌɾɹ̩
   respell: DUN-kun // HUN-ter
   notes: https://www.youtube.com/watch?v=28q0qxsrX6E Perhaps T should not be included
     in POD

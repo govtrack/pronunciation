@@ -20,7 +20,7 @@ The record has four parts:
 
 `name` provides the first and last name of the Member of Congress, as used by this project, separated by `//`.
 
-`ipa` provides the pronunciation of the name using the [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) the world-wide standard for transcribing the sounds of speech. An IPA transcription is provided for the name as it appears in the `name` field, with the corresponding name parts separated by `//`.
+`ipa` provides the pronunciation of the name using a subset of the [International Phonetic Alphabet](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) the world-wide standard for transcribing the sounds of speech. An IPA transcription is provided for the name as it appears in the `name` field, with the corresponding name parts separated by `//`. We use a subset of IPA, to guide us to transcribing sounds consistently, that consists of the vowels `a ɐ ɑ æ a͡ɪ a͡ʊ ə ɛ ɝ e͡ɪ i ɪ o ɔ ɔ͡ɪ o͡ʊ u ʊ ʌ` and consonants `b d d͡z d͡ʒ f g h j k l m n ŋ p ɹ ɹ̜ ɾ s ʃ t t͡s t͡ʃ θ ʒ v w z`.
 
 `respell` provides a friendly guide to the pronunciation of the name using a "[respelling](https://en.wikipedia.org/wiki/Pronunciation_respelling_for_English)". The respelling is provided for the name as it appears in the `name` field, with the corresponding name parts separated by `//`. We use a respelling guide similar to the [Pocket Oxford English Dictionary](https://www.amazon.com/Pocket-Oxford-English-Dictionary-Dictionaries/dp/0199666156/ref=sr_1_5?ie=UTF8&qid=1508765253&sr=8-5&keywords=pocket+oxford):
 
