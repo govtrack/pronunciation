@@ -48,7 +48,6 @@ ipa_symbols = {
   "ɑ", "æ", "æ̃", "aɪ", "aʊ", "ɛ", "ə", "eɪ", "ɚ", "ɝ",
   "i", "ɪ", "ɔ", "ɔɪ", "oʊ", "u", "ʊ", "ʌ",
   "o", # TODO REMOVE?
-  "'",
   "\u0329", # COMBINING VERTICAL LINE BELOW
   " ", # separates multi-word names
 }
