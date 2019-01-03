@@ -55,6 +55,7 @@ ipa_symbols = {
   "d͡z", "o", # TODO REMOVE?
   "ɔ̃",
   "\u0329", # COMBINING VERTICAL LINE BELOW
+  "ˈ", # stressed syllable
   " ", # separates multi-word names
 }
 
