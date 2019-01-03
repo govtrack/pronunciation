@@ -3275,3 +3275,597 @@
   name: Debbie // Lesko
   ipa: dɛbi // lɛsko͡ʊ
   respell: DE-bee // LES-koh
+- id:
+    govtrack: 412746
+  name: Michael // Cloud
+  ipa: ma͡ɪkl̩ // kʰla͡ʊd
+  respell: MĪ-kuhl // klowd
+  notes: ''
+- id:
+    govtrack: 300062
+  name: Jon // Kyl
+  ipa: d͡ʒɐn // kʰa͡ɪəl
+  respell: jon // KĪ-uhl
+  notes: ''
+- id:
+    govtrack: 412747
+  name: Troy // Balderson
+  ipa: t͡ʃɹɔ͡ɪ // ˈbɔldɹ̩sən
+  respell: chroy // BAWL-der-suhn
+  notes: ''
+- id:
+    govtrack: 412748
+  name: Kevin // Hern
+  ipa: kʰɛvɪn // hɹ̩n
+  respell: KE-vin // hern
+  notes: ''
+- id:
+    govtrack: 412749
+  name: Joseph // Morelle
+  ipa: d͡ʒo͡ʊsɪf // məˈɹɛli
+  respell: JOH-sif // mer-E-lee
+  notes: Goes by "Joe"
+- id:
+    govtrack: 412750
+  name: Mary // Scanlon
+  ipa: mæɹi // skæ̃nlɪn
+  respell: MA-ree // SKAN-luhn
+  notes: ''
+- id:
+    govtrack: 412751
+  name: Susan // Wild
+  ipa: su:zn̩ // wa͡ɪəld
+  respell: SOO-zuhn // WĪ-uhld
+  notes: ''
+- id:
+    govtrack: 400069
+  name: Ed // Case
+  ipa: ɛd // kʰe͡ɪs
+  respell: ed // kays
+  notes: ''
+- id:
+    govtrack: 412559
+  name: Steven // Horsford
+  ipa: sti:vən // ˈho͡ʊɹsfɹ̩d
+  respell: STEE-vuhn // HOHRS-ferd
+  notes: ''
+- id:
+    govtrack: 412286
+  name: Ann // Kirkpatrick
+  ipa: æ̃n // kʰɪɹkpʰæt͡ʃɹɪk
+  respell: an // kirk-PACH-rik
+  notes: ''
+- id:
+    govtrack: 412753
+  name: Greg // Stanton
+  ipa: gɹɛg // stæ̃nɾn̩
+  respell: greg // STAN-tuhn
+  notes: ''
+- id:
+    govtrack: 412754
+  name: Josh // Harder
+  ipa: d͡ʒɐʃ // haɹɾɹ̩
+  respell: josh // HAR-der
+  notes: ''
+- id:
+    govtrack: 412755
+  name: TJ // Cox
+  ipa: tʰi:d͡ʒe͡ɪ // kʰɔks
+  respell: TEE-jay // koks
+  notes: ''
+- id:
+    govtrack: 412756
+  name: Katie // Hill
+  ipa: kʰe͡ɪɾi // hɪl
+  respell: KAY-tee // hil
+  notes: ''
+- id:
+    govtrack: 412757
+  name: Gilbert // Cisneros
+  ipa: gɪlbɹ̩t // səsˈnɛɹo͡ʊs
+  respell: GIL-bert // suhs-NE-rohs
+  notes: Goes by "Gil"
+- id:
+    govtrack: 412758
+  name: Katie // Porter
+  ipa: kʰe͡ɪɾi // pʰɔɹɾɹ̩
+  respell: KAY-tee // POR-ter
+  notes: ''
+- id:
+    govtrack: 412759
+  name: Harley // Rouda
+  ipa: 'haɹli: // ɹu:ɾə'
+  respell: HAR-lee // ROO-duh
+  notes: ''
+- id:
+    govtrack: 412760
+  name: Mike // Levin
+  ipa: ma͡ɪk // lɛvn̩
+  respell: mīk // LE-vuhn
+  notes: ''
+- id:
+    govtrack: 412761
+  name: Joe // Neguse
+  ipa: d͡ʒo͡ʊ // nəˈgu:s
+  respell: joh // nuh-GOOS
+  notes: ''
+- id:
+    govtrack: 412762
+  name: Jason // Crow
+  ipa: d͡ʒe͡ɪsn̩ // kʰɹo͡ʊ
+  respell: JAY-suhn // kroh
+  notes: ''
+- id:
+    govtrack: 412763
+  name: Jahana // Hayes
+  ipa: d͡ʒəˈhanə // he͡ɪz
+  respell: juh-HAH-nuh // hayz
+  notes: ''
+- id:
+    govtrack: 412764
+  name: Michael // Waltz
+  ipa: ma͡ɪkl̩ // wɔlt͡s
+  respell: MĪ̄-kuhl // wawlts
+  notes: ''
+- id:
+    govtrack: 412765
+  name: Ross // Spano
+  ipa: ɹɔs // spæno͡ʊ
+  respell: raws // SPA-noh
+  notes: ''
+- id:
+    govtrack: 412766
+  name: Gregory // Steube
+  ipa: 'gɹɛgəɹi // stu:bi:'
+  respell: gɹɛgəɹi // STOO-bee
+  notes: Goes by Greg gɹɛg
+- id:
+    govtrack: 412767
+  name: Debbie // Mucarsel-Powell
+  ipa: 'dɛbi: // ˈmukʰarsəl pʰa͡ʊəl'
+  respell: DE-bee // MOO-kar-suhl POW-uhl
+  notes: Uses entirety of hyphenated last name
+- id:
+    govtrack: 412768
+  name: Donna // Shalala
+  ipa: dɔnə // ʃəˈle͡ɪlə
+  respell: DAH-nuh // shuh-LAY-luh
+  notes: ''
+- id:
+    govtrack: 412769
+  name: Lucy // McBath
+  ipa: ˈlu:si // məkbæθ
+  respell: LOO-see // muhk-BATH
+  notes: ''
+- id:
+    govtrack: 412770
+  name: Michael // San Nicolas
+  ipa: ma͡ɪkl̩ // sən ˈnɪkələs
+  respell: MĪ-kuhl // suhn-NIK-uh-luhs
+  notes: ''
+- id:
+    govtrack: 412771
+  name: Abby // Finkenauer
+  ipa: æbi // fɪŋkəna͡ʊəɹ
+  respell: A-bee // FINK-uh-now-er
+  notes: ''
+- id:
+    govtrack: 412772
+  name: Cynthia // Axne
+  ipa: ˈsɪnθiə // ˈæksni
+  respell: SIN-thee-uh // AKS-nee
+  notes: ''
+- id:
+    govtrack: 412773
+  name: Russ // Fulcher
+  ipa: ɹʌs // ˈfʌlt͡ʃɹ̩
+  respell: rus // FUL-cher
+  notes: ''
+- id:
+    govtrack: 412774
+  name: Jesús // García
+  ipa: hesus // gaɹˈsiə
+  respell: hay-SOOS // gar-SEE-uh
+  notes: Often goes by "Chuy" ˈt͡ʃui
+- id:
+    govtrack: 412775
+  name: Sean // Casten
+  ipa: ʃɔn // kʰæstɪn
+  respell: shawn // KAS-tin
+  notes: ''
+- id:
+    govtrack: 412776
+  name: Lauren // Underwood
+  ipa: lɔɹən // ˈʌndəɹwʊd
+  respell: LAW-ruhn // UN-der-wuud
+  notes: ''
+- id:
+    govtrack: 412777
+  name: James // Baird
+  ipa: d͡ʒe͡ɪmz // be͡ɪɹd
+  respell: jaymz // baird
+  notes: Goes by "Jim" jim
+- id:
+    govtrack: 412778
+  name: Greg // Pence
+  ipa: gɹɛg // pʰɛns
+  respell: greg // pens
+  notes: ''
+- id:
+    govtrack: 412779
+  name: Steven // Watkins
+  ipa: sti:vən // wɔt̚kʰɪnz
+  respell: STEE-vuhn // WAWT-kinz
+  notes: ''
+- id:
+    govtrack: 412780
+  name: Sharice // Davids
+  ipa: ʃəɹis // de͡ɪvɪdz
+  respell: shuh-REES // DAY-vidz
+  notes: ''
+- id:
+    govtrack: 412781
+  name: Lori // Trahan
+  ipa: ˈlɔɹi // t͡ʃɹəˈhæn
+  respell: LAW-ree // chruh-HAN
+  notes: ''
+- id:
+    govtrack: 412782
+  name: Ayanna // Pressley
+  ipa: ajˈanə // pʰɹɛsli
+  respell: ah-YAH-nuh // PRES-lee
+  notes: ''
+- id:
+    govtrack: 412783
+  name: David // Trone
+  ipa: de͡ɪvɪd // t͡ʃo͡ʊn
+  respell: DAY-vid // chrohn
+  notes: ''
+- id:
+    govtrack: 412784
+  name: Elissa // Slotkin
+  ipa: əˈlɪsə // slɔt̚kʰɪn
+  respell: uh-LIS-uh // SLAWT-kin
+  notes: ''
+- id:
+    govtrack: 412785
+  name: Andy // Levin
+  ipa: 'æ̃ndi: // lɛvɪn'
+  respell: AN-dee // LE-vin
+  notes: ''
+- id:
+    govtrack: 412786
+  name: Haley // Stevens
+  ipa: he͡ɪli // sti:vɪnz
+  respell: HAY-lee // STEE-vinz
+  notes: ''
+- id:
+    govtrack: 412787
+  name: Rashida // Tlaib
+  ipa: ɹəˈʃidə // təˈlib
+  respell: ruh-SHEE-duh // tuh-LEEB
+  notes: ''
+- id:
+    govtrack: 412788
+  name: Jim // Hagedorn
+  ipa: d͡ʒɪm // ˈhægədɔɹn
+  respell: jim // HA-guh-dawrn
+  notes: ''
+- id:
+    govtrack: 412789
+  name: Angie // Craig
+  ipa: æ̃nd͡ʒi  // kʰɹɛg
+  respell: AN-jee // kreg
+  notes: ''
+- id:
+    govtrack: 412790
+  name: Dean // Phillips
+  ipa: di:n // fɪlɪps
+  respell: deen // FI-lips
+  notes: ''
+- id:
+    govtrack: 412791
+  name: Ilhan // Omar
+  ipa: ˈɪlhan // o͡ʊmaɹ
+  respell: IL-hahn // OH-mar
+  notes: ''
+- id:
+    govtrack: 412792
+  name: Pete // Stauber
+  ipa: pʰi:t // ˈstɔbɹ̩
+  respell: peet // STAW-ber
+  notes: ''
+- id:
+    govtrack: 412793
+  name: Michael // Guest
+  ipa: ma͡ɪkl̩ // gɛst
+  respell: MĪ̄-kuhl // gest
+  notes: 'Strong southern accent: pronounces last name gɛəst'
+- id:
+    govtrack: 412794
+  name: Kelly // Armstrong
+  ipa: kʰɛli // arms̠tɹɔŋ
+  respell: KE-lee // ARM-shtrawng
+  notes: ''
+- id:
+    govtrack: 412795
+  name: Chris // Pappas
+  ipa: kɹɪs // ˈpæpəs
+  respell: kris // PA-puhs
+  notes: ''
+- id:
+    govtrack: 412796
+  name: Jefferson // Van Drew
+  ipa: 'd͡ʒɛfɹ̩sən // væn d͡ʒɹu:'
+  respell: JEF-er-suhn // van-JROO
+  notes: ''
+- id:
+    govtrack: 412797
+  name: Andy // Kim
+  ipa: 'æ̃ndi: // kʰɪm'
+  respell: AN-dee // kim
+  notes: ''
+- id:
+    govtrack: 412798
+  name: Tom // Malinowski
+  ipa: tʰɐm // mælɪˈna͡ʊski
+  respell: tom // ma-luh-NOW-skee
+  notes: ''
+- id:
+    govtrack: 412799
+  name: Mikie // Sherrill
+  ipa: 'ma͡ɪkʰi: // ˈʃɛɹəl'
+  respell: MĪ-kee // SHE-ruhl
+  notes: ''
+- id:
+    govtrack: 412800
+  name: Debra // Haaland
+  ipa: dɛbɹə // halənd
+  respell: DE-bruh // HAH-luhnd
+  notes: Goes by deb dɛb
+- id:
+    govtrack: 412801
+  name: Xochitl // Torres Small
+  ipa: ˈso͡ʊt͡ʃil // to͡ʊrɛs smal
+  respell: SOH-cheel // TOH-res smawll
+  notes: R int eh IPA not a mistake
+- id:
+    govtrack: 412802
+  name: Susie // Lee
+  ipa: 'ˈsu:zi: // li:'
+  respell: SOO-zee // LEE
+  notes: ''
+- id:
+    govtrack: 412803
+  name: Max // Rose
+  ipa: mæks // ɹo͡ʊz
+  respell: maks // rohz
+  notes: ''
+- id:
+    govtrack: 412804
+  name: Alexandria // Ocasio-Cortez
+  ipa: æləksænd͡ʒɹiə // ocasio kortɛs
+  respell: A-luhk-ZAN-jree-uh // oh-KAH-see-oh kor-TEZ
+  notes: ''
+- id:
+    govtrack: 412805
+  name: Antonio // Delgado
+  ipa: æ̃nto͡ʊnio͡ʊ // dɛlgado͡ʊ
+  respell: an-TOH-nee-oh // del-GAH-doh
+  notes: ''
+- id:
+    govtrack: 412806
+  name: Anthony // Brindisi
+  ipa: æ̃n̪θəni // bɹɪnˈdɪsi
+  respell: AN-thuh-nee // brin-DI-see
+  notes: ''
+- id:
+    govtrack: 412807
+  name: Anthony // Gonzalez
+  ipa: æ̃n̪θəni // gənzalɛs
+  respell: AN-thuh-nee // guhn-ZAH-les
+  notes: ''
+- id:
+    govtrack: 412808
+  name: Kendra // Horn
+  ipa: kʰɛnd͡ʒɹə // ho͡ʊɹn
+  respell: KEN-jruh // horn
+  notes: ''
+- id:
+    govtrack: 412809
+  name: Madeleine // Dean
+  ipa: mæɾəlɪn // di:n
+  respell: MA-duh-lin // deen
+  notes: ''
+- id:
+    govtrack: 412810
+  name: Chrissy // Houlahan
+  ipa: kʰɹɪsi // ˈhuləhæ̃n
+  respell: KRI-see // HOO-luh-han
+  notes: ''
+- id:
+    govtrack: 412811
+  name: Daniel // Meuser
+  ipa: dænjəl // mju:sɹ̩
+  respell: DAN-yuhl // MYOO-ser
+  notes: ''
+- id:
+    govtrack: 412812
+  name: John // Joyce
+  ipa: d͡ʒɐn // d͡ʒɔ͡ɪs
+  respell: jon // joys
+  notes: ''
+- id:
+    govtrack: 412813
+  name: Guy // Reschenthaler
+  ipa: ga͡ɪ // ɹɛʃn̩taləɹ
+  respell: gī // RESH-uhn-tal-er
+  notes: ''
+- id:
+    govtrack: 412814
+  name: Joe // Cunningham
+  ipa: d͡ʒo͡ʊ // kʰʌnɪŋhæ̃m
+  respell: joh // KUH-ning-ham
+  notes: ''
+- id:
+    govtrack: 412815
+  name: William // Timmons
+  ipa: wɪljəm // tʰɪmənz
+  respell: WIL-yuhm // TI-muhnz
+  notes: ''
+- id:
+    govtrack: 412816
+  name: Dusty // Johnson
+  ipa: ˈdʌsti // d͡ʒɐnsn̩
+  respell: DUH-stee // JON-sin
+  notes: ''
+- id:
+    govtrack: 412817
+  name: Tim // Burchett
+  ipa: tʰɪm // ˈbʌɹt͡ʃət
+  respell: tim // BURCH-uht
+  notes: ''
+- id:
+    govtrack: 412818
+  name: John // Rose
+  ipa: d͡ʒɐn // ɹo͡ʊz
+  respell: jon // rohz
+  notes: ''
+- id:
+    govtrack: 412819
+  name: Mark // Green
+  ipa: maɹk // gɹi:n
+  respell: mahrk // green
+  notes: ''
+- id:
+    govtrack: 412820
+  name: Dan // Crenshaw
+  ipa: dæ̃n  // ˈkʰɹɛnʃɔ
+  respell: dan // KREN-shaw
+  notes: ''
+- id:
+    govtrack: 412821
+  name: Van // Taylor
+  ipa: væ̃n // tʰe͡ɪlɹ̩
+  respell: van // TAY-ler
+  notes: ''
+- id:
+    govtrack: 412822
+  name: Lance // Gooden
+  ipa: læ̃ns // gʊɾən
+  respell: lans // GUU-duhn
+  notes: ''
+- id:
+    govtrack: 412823
+  name: Ron // Wright
+  ipa: ɹɐn // ɹa͡ɪt
+  respell: ron // rīt
+  notes: ''
+- id:
+    govtrack: 412824
+  name: Lizzie // Fletcher
+  ipa: lɪzi // flɛt͡ʃɹ̩
+  respell: LI-zee // FLE-cher
+  notes: ''
+- id:
+    govtrack: 412825
+  name: Veronica // Escobar
+  ipa: vɹ̩ɔnɪkə // ɛskəbaɹ
+  respell: ver-AW-ni-kuh // ES-kuh-bar
+  notes: 'Often prononces name as Spanish: [veronɪka eskoβar]'
+- id:
+    govtrack: 412826
+  name: Chip // Roy
+  ipa: t͡ʃɪp // ɹɔ͡ɪ
+  respell: chip // roy
+  notes: ''
+- id:
+    govtrack: 412827
+  name: Sylvia // Garcia
+  ipa: sɪlviə // garsiə
+  respell: SIL-vee-uh // gar-SEE-uh
+  notes: ''
+- id:
+    govtrack: 412828
+  name: Colin // Allred
+  ipa: kʰɐlɪn // alɹɛd
+  respell: KO-lin // AHL-red
+  notes: ''
+- id:
+    govtrack: 412829
+  name: Ben // McAdams
+  ipa: bɛn // məkædəmz
+  respell: ben // muhk-A-duhmz
+  notes: ''
+- id:
+    govtrack: 412830
+  name: Elaine // Luria
+  ipa: əle͡ɪn // lʊɹiə
+  respell: uh-LAYN // LUU-ri-uh
+  notes: ''
+- id:
+    govtrack: 412831
+  name: Denver // Riggleman
+  ipa: dɛnvɹ̩ // ɹɪgəlmɪn
+  respell: DEN-ver // RI-guhl-min
+  notes: ''
+- id:
+    govtrack: 412832
+  name: Ben // Cline
+  ipa: bɛn // kl̥a͡ɪn
+  respell: ben // klīn
+  notes: ''
+- id:
+    govtrack: 412833
+  name: Abigail // Spanberger
+  ipa: abəge͡ɪl // spæ̃nbɹ̩gɹ̩
+  respell: A-buh-gayl // SPAN-ber-ger
+  notes: ''
+- id:
+    govtrack: 412834
+  name: Jennifer // Wexton
+  ipa: d͡ʒɛnəfɹ̩ // wɛkstən
+  respell: JEN-i-fer // WEKS-tuhn
+  notes: ''
+- id:
+    govtrack: 412835
+  name: Kim // Schrier
+  ipa: kʰɪm // ʃɹa͡ɪəɹ
+  respell: kim // SHRĪ-er
+  notes: ''
+- id:
+    govtrack: 412836
+  name: Bryan // Steil
+  ipa: bɹa͡ɪn̩ // sta͡ɪəl
+  respell: BRĪ-in // STĪ-uhl
+  notes: ''
+- id:
+    govtrack: 412837
+  name: Carol // Miller
+  ipa: kʰæɹəl // mɪləɹ
+  respell: KA-ruhl // MI-ler
+  notes: ''
+- id:
+    govtrack: 412838
+  name: Rick // Scott
+  ipa: ɹɪk // skɐt
+  respell: rik // skot
+  notes: ''
+- id:
+    govtrack: 412839
+  name: Mike // Braun
+  ipa: ma͡ɪk // bɹɔn
+  respell: mīk // brawn
+  notes: ''
+- id:
+    govtrack: 412840
+  name: Joshua // Hawley
+  ipa: d͡ʒɔʃuə // ˈhɔli
+  respell: josh // HAW-lee
+  notes: Goes by Josh [d͡ʒɔʃ]
+- id:
+    govtrack: 412841
+  name: Mitt // Romney
+  ipa: mɪt // ɹɔmni
+  respell: mit // ROM-nee
+  notes: ''
