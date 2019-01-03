@@ -9,7 +9,7 @@ with open("legislators.yaml") as f:
 def error(msg):
 	print(msg)
 
-def parse_symbols(string, symbols):
+def parse_symbols(string, symbols, source):
 	# Parse the string into a list of symbols. Since some symbols
 	# are prefixes of other symbols, assume symbols is sorted in
 	# reverse length order and return the longest matching symbol.
@@ -36,7 +36,8 @@ def parse_symbols(string, symbols):
 			left = string[:i]
 			right = string[i:]
 			if unicodedata.combining(right[0]): right = "◌" + right
-			error("In {}, no valid symbol {}at the start of {}.".format(
+			error("[{}] In {}, no valid symbol {}at the start of {}.".format(
+				source['id']['govtrack'],
 				string,
 				("after " + left + " ") if left else "",
 				right))
@@ -77,7 +78,7 @@ ipa_symbols = list(sorted(ipa_symbols, key = lambda s : -len(unicodedata.normali
 symcount = { }
 for member in guide:
 	for ipa in member["ipa"].split(" // "):
-		for s in parse_symbols(ipa, ipa_symbols):
+		for s in parse_symbols(ipa, ipa_symbols, member):
 			symcount[s] = symcount.get(s, 0) + 1
 #print(" ".join(sorted(symcount.keys())))
 
@@ -111,7 +112,7 @@ respelling_onsets = {
 	's t r', 'sh t r', 's k r', 's k w', 's k l', 'th w', 'p y', 'k y', 'b y', 'f y',
 	'h y', 'v y', 'th y', 'm y', 's p y', 's k y', 'g y', 'h w', 't s', ''
 }
-def validate_syllable(syl):
+def validate_syllable(syl, source):
 	# Check stress --- all phonemes must be uppercase or all lowercase.
 	if syl == syl.upper():
 		pass
@@ -121,7 +122,7 @@ def validate_syllable(syl):
 		error("invalid casing in " + word)
 
 	# Split syllable into phonemes.
-	syl = list(parse_symbols(syl, respelling_symbols))
+	syl = list(parse_symbols(syl, respelling_symbols, source))
 
 	# Split syllable into onset, nucleus, and coda.
 	onset = []
@@ -160,7 +161,7 @@ respelling_symbols = list(sorted(respelling_symbols, key = lambda s : -len(unico
 for member in guide:
 	for respell in member["respell"].split(" // "):
 		# Check that only valid respelling letter( combination)s are present.
-		parse_symbols(respell, respelling_symbols)
+		parse_symbols(respell, respelling_symbols, member)
 
 		# Check capitalization - each syllable must be either upper or lower
 		# and in each word exactly one syllable must have primary stress
@@ -171,7 +172,7 @@ for member in guide:
 				# Check that the syllabification is valid. Check each
 				# syllable's onset and nucleus and that the stress
 				# is consistent across the phonemes.
-				validate_syllable(syl)
+				validate_syllable(syl, member)
 			if len(syls) == 1 and word == word.upper():
 				error("Single-syllable word should not be represented in uppercase: " + word)
 			if len(syls) > 1 and len([syl for syl in syls if syl == syl.upper()]) != 1:
