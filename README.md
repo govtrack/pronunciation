@@ -52,7 +52,10 @@ The record has four parts:
 | yoo   | unit    | z         | zebra   |
 | yr    | fire    | zh        | vision  |
 
-We use `u` and `uh` for both the stressed and unstressed mid central vowel, but `u` in used in closed syllables and `uh` in open syllables for readability reasons.
+Constraints:
+
+* We use `u` and `uh` for both the stressed and unstressed mid central vowel, but `u` in used in closed syllables and `uh` in open syllables for readability reasons.
+* `ah` and `o` are similar sounds. `o` is restricted to closed syllables, however, since in open syllables one might think it should be pronounced as in "do", "to", etc.
 
 In addition:
 
