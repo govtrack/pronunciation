@@ -86,7 +86,7 @@ for member in guide:
 # the symbols that we've documented that we
 # use.
 respelling_vowels = {
-	"a", "ah", "air", "ar", "aw", "ay",
+	"a", "ah", "air", "aw", "ay",
 	"e", "ee", "eer", "er", "ew", "i", "ī",
 	"o", "oh", "oi", "oo", "oor", "or", "ow", "oy",
 	"u", "uh", "uu", "y", "yoo", "yoor", "yr",
