@@ -52,7 +52,7 @@ The record has four parts:
 | yoo   | unit    | z         | zebra   |
 | yr    | fire    | zh        | vision  |
 
-We use `u` and `uh` for both the stressed and unstressed mid central vowel, prefering `u` when the syllable has both an onset and a coda for readability reasons.
+We use `u` and `uh` for both the stressed and unstressed mid central vowel, but `u` in used in closed syllables and `uh` in open syllables for readability reasons.
 
 In addition:
 

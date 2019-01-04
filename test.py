@@ -145,7 +145,13 @@ def validate_syllable(syl, source):
 	# Validate onset and nucleus.
 	onset = " ".join(onset)
 	if onset.lower() not in respelling_onsets:
-		error("invalid syllable structure: {} not a valid onset in {}".format(onset, syl))
+		error("invalid syllable structure: {} not a valid onset in {} in n".format(onset, syl, source['id']['govtrack']))
+
+	# Some respelling symbols are limited in their context.
+	if ("u" in nucleus or "U" in nucleus) and not coda:
+		error("'u' not allowed in open syllable in {} in {}".format(syl, source['id']['govtrack']))
+	if ("uh" in nucleus or "UH" in nucleus) and coda:
+		error("'uh' not allowed in closed syllable in {} in {}".format(syl, source['id']['govtrack']))
 
 
 # Perform unicode normalization so that composable characters are composed.
