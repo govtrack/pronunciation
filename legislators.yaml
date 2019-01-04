@@ -122,7 +122,7 @@
     govtrack: 412293
   name: Ben // Luján
   ipa: bɛn // luhan
-  respell: ben // LOO-hahn
+  respell: ben // LOO-hon
   notes: ''
 - id:
     govtrack: 400660
@@ -434,7 +434,7 @@
     govtrack: 400290
   name: Grace // Napolitano
   ipa: gɹe͡ɪs // nəpɐlɪtano͡ʊ
-  respell: grays // nuh-pol-i-TAH-noh
+  respell: grays // nuh-pahl-i-TAH-noh
   notes: 'https://www.youtube.com/watch?v=jadRTsT6uik BUT, see Spanish pronunciation:
     https://www.youtube.com/watch?v=JIARdwHAm08'
 - id:
@@ -477,7 +477,7 @@
     govtrack: 412438
   name: Justin // Amash
   ipa: d͡ʒʊstən // əmaʃ
-  respell: JUS-tin // uh-MAHSH
+  respell: JUS-tin // uh-MOSH
   notes: https://www.youtube.com/watch?v=5pOrD76_scY
 - id:
     govtrack: 400272
@@ -580,7 +580,7 @@
     govtrack: 400344
   name: Ileana // Ros-Lehtinen
   ipa: ɪlianə // ɹɔsle͡ɪtnən
-  respell: i-lee-AH-nuh // rahs LAYT-nun
+  respell: i-lee-AH-nuh // ros LAYT-nun
   notes: https://www.youtube.com/watch?v=G4pAsKbnxQM
 - id:
     govtrack: 400124
@@ -874,7 +874,7 @@
     govtrack: 400013
   name: Tammy // Baldwin
   ipa: tæ̃mi // bɐldwɪn
-  respell: TA-mee // BOLD-win
+  respell: TA-mee // BAHLD-win
   notes: https://www.youtube.com/watch?v=IOz20N91ni0
 - id:
     govtrack: 412637
@@ -1067,7 +1067,7 @@
     govtrack: 412312
   name: Gregorio // Sablan
   ipa: gɹɪgo͡ʊɹi // səblan
-  respell: gri-GOH-ree // sub-LAHN
+  respell: gri-GOH-ree // sub-LON
   notes: https://www.youtube.com/watch?v=O6WoWLvOnHw He seems to not pronounce the
     final <o> in his first name
 - id:
@@ -1484,7 +1484,7 @@
     govtrack: 412428
   name: Todd // Young
   ipa: tɔd // jʌŋg
-  respell: tahd // yung
+  respell: tod // yung
   notes: https://www.youtube.com/watch?v=JsB3Nuo-4Zg
 - id:
     govtrack: 412193
@@ -1575,7 +1575,7 @@
     govtrack: 412507
   name: Brian // Schatz
   ipa: bɹa͡ɪn̩ // ʃɔt͡s
-  respell: BRĪ-in // shahts
+  respell: BRĪ-in // shots
   notes: https://www.youtube.com/watch?v=ICJQMn6DzjY
 - id:
     govtrack: 400643
@@ -1587,7 +1587,7 @@
     govtrack: 412426
   name: Todd // Rokita
   ipa: tɔd // ɹo͡ʊkiɾə
-  respell: tahd // roh-KEE-tuh
+  respell: tod // roh-KEE-tuh
   notes: https://www.youtube.com/watch?v=nho1E2WV5Dc
 - id:
     govtrack: 412719
@@ -1635,7 +1635,7 @@
     govtrack: 412651
   name: Ryan // Costello
   ipa: ɹa͡ɪən // kɔstɛlo͡ʊ
-  respell: RĪ-un // kahs-TE-loh
+  respell: RĪ-un // kos-TE-loh
   notes: https://www.youtube.com/watch?v=7E4M22rO6lY
 - id:
     govtrack: 412700
@@ -1797,7 +1797,7 @@
     govtrack: 412558
   name: Michelle // Lujan Grisham
   ipa: mɪʃɛl // luhan gɹɪʃəm
-  respell: mi-SHEL // LOO-hahn GRI-shum
+  respell: mi-SHEL // LOO-hon GRI-shum
   notes: https://www.youtube.com/watch?v=dpY7d7iajig
 - id:
     govtrack: 412506
@@ -2140,7 +2140,7 @@
     govtrack: 412517
   name: Tony // Cárdenas
   ipa: to͡ʊni // kaɹdɛnas
-  respell: TOH-nee // KAHR-de-nahs
+  respell: TOH-nee // KAHR-de-nos
   notes: https://www.youtube.com/watch?v=YqDhckUs6_E
 - id:
     govtrack: 400211
@@ -3269,7 +3269,7 @@
     govtrack: 412744
   name: Conor // Lamb
   ipa: kanɹ̩ // læ̃m
-  respell: KAHN-er // lam
+  respell: KON-er // lam
 - id:
     govtrack: 412745
   name: Debbie // Lesko
@@ -3567,7 +3567,7 @@
     govtrack: 412791
   name: Ilhan // Omar
   ipa: ˈɪlhan // o͡ʊmaɹ
-  respell: IL-hahn // OH-mar
+  respell: IL-hon // OH-mar
   notes: ''
 - id:
     govtrack: 412792

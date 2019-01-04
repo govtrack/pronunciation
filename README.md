@@ -55,7 +55,7 @@ The record has four parts:
 Constraints:
 
 * We use `u` and `uh` for both the stressed and unstressed mid central vowel, but `u` in used in closed syllables and `uh` in open syllables for readability reasons.
-* `ah` and `o` are similar sounds. `o` is restricted to closed syllables, however, since in open syllables one might think it should be pronounced as in "do", "to", etc.
+* `ah` and `o` are similar sounds, but `o` is restricted to closed syllables, except ones that end in `r` or `l`, since in open syllables one might think it should be pronounced as in "do", "to", etc., and "dor"/"bold" is a different vowel. `ah` is used in open syllables and closed syllables ending in `r`/`l`.
 
 In addition:
 

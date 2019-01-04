@@ -154,6 +154,10 @@ def validate_syllable(syl, source):
 		error("'uh' not allowed in closed syllable in {} in {}".format(syl, source['id']['govtrack']))
 	if ("o" in nucleus or "O" in nucleus) and not coda:
 		error("'o' not allowed in open syllable in {} in {}".format(syl, source['id']['govtrack']))
+	if ("o" in nucleus or "O" in nucleus) and coda and ("r" in coda or "R" in coda or "l" in coda or "L" in coda):
+		error("'o' not allowed in closed syllables with 'r' or 'l' in {} in {}".format(syl, source['id']['govtrack']))
+	if ("ah" in nucleus or "AH" in nucleus) and coda and not ("r" in coda or "R" in coda or "l" in coda or "L" in coda) and syl != ["w", "ah", "n"]:
+		error("'ah' not allowed in closed syllable except ones with 'r'/'l' in {} in {}".format(syl, source['id']['govtrack']))
 
 
 # Perform unicode normalization so that composable characters are composed.
