@@ -29,7 +29,7 @@ The record has four parts:
 | a     | cat     | b         | bat     |
 | ah    | calm    | ch        | chin    |
 | air   | hair    | d         | day     |
-|       |         | f         | fat     |
+|       |         | f         | fun     |
 | aw    | law     | g         | get     |
 | ay    | say     | h         | hat     |
 | e     | bed     | j         | jam     |
