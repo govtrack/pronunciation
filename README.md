@@ -41,7 +41,7 @@ The record has four parts:
 | ī     | eye     | nk        | thank   |
 | o     | top     | p         | pen     |
 | oh    | most    | r         | rag     |
-| oo    | soon    | s         | sit     |
+| oo    | soon    | s/ss      | sit     |
 | oor   | poor    | sh        | push    |
 | or    | corn    | t         | top     |
 | ow    | cow     | th        | thin    |
@@ -56,6 +56,7 @@ Constraints:
 
 * We use `u` and `uh` for both the stressed and unstressed mid central vowel, but `u` in used in closed syllables and `uh` in open syllables for readability reasons.
 * `ah` and `o` are similar sounds, but `o` is restricted to closed syllables, except ones that end in `r` or `l`, since in open syllables one might think it should be pronounced as in "do", "to", etc., and "dor"/"bold" is a different vowel. `ah` is used in open syllables and closed syllables ending in `r`/`l`.
+* `s` is doubled as `ss` in non-complex codas to make it less confusable for a `z` sound. In complex codas, the presence of other consonants with a voice contrast often makes `s` unambiguous.
 
 In addition:
 
