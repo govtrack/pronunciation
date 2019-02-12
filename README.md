@@ -50,7 +50,7 @@ The record has four parts:
 | uu    | book    | w         | will    |
 | y     | cry     | y         | yes     |
 | yoo   | unit    | z         | zebra   |
-| yr    | fire    | zh        | vision  |
+|       |         | zh        | vision  |
 
 Constraints:
 
