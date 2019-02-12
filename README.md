@@ -48,7 +48,7 @@ The record has four parts:
 | oy    | boy     | t͡h        | this    |
 | u/uh  | cup     | v         | van     |
 | uu    | book    | w         | will    |
-| y     | cry     | y         | yes     |
+|       |         | y         | yes     |
 | yoo   | unit    | z         | zebra   |
 |       |         | zh        | vision  |
 
