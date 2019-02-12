@@ -34,7 +34,7 @@ The record has four parts:
 | ay    | say     | h         | hat     |
 | e     | bed     | j         | jam     |
 | ee    | meet    | k         | king    |
-| eer   | beer    | l         | leg     |
+|       |         | l         | leg     |
 | er    | her     | m         | man     |
 | ew    | few     | n         | not     |
 | i     | pin     | ng        | sing    |
