@@ -49,7 +49,7 @@ The record has four parts:
 | u/uh  | cup     | v         | van     |
 | uu    | book    | w         | will    |
 |       |         | y         | yes     |
-| yoo   | unit    | z         | zebra   |
+|       |         | z         | zebra   |
 |       |         | zh        | vision  |
 
 Constraints:
