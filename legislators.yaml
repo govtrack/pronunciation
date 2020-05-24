@@ -481,7 +481,7 @@
   notes: https://www.youtube.com/watch?v=5pOrD76_scY
 - id:
     govtrack: 400272
-  name: Robert // Menéndez
+  name: Robert // Menendez
   ipa: ɹɐbɹ̩t // mənɛndɛz
   respell: RAH-bert // muh-NEN-dez
   notes: https://www.youtube.com/watch?v=tM6bfqgwRFc BOB
@@ -3874,4 +3874,46 @@
   name: Jared // Golden
   ipa: d͡ʒæɹɪd // go͡ʊldn̩
   respell: JAR-id // GOHL-dun
+  notes: ''
+- id:
+    govtrack: 412844
+  name: Dan // Bishop
+  ipa: dæ̃n // bɪʃəp
+  respell: dan // BISH-up
+  notes: ''
+- id:
+    govtrack: 456792
+  name: Mike // Garcia
+  ipa: ma͡ɪk // gaɹˈsiə
+  respell: mīk // gar-SEE-uh
+  notes: ''
+- id:
+    govtrack: 412843
+  name: Fred // Keller
+  ipa: fɹɛd // kɛlɹ̩
+  respell: fred // KE-ler
+  notes: ''
+- id:
+    govtrack: 456790
+  name: Kelly // Loeffler
+  ipa: kɛli // ˈlɛflɹ̩
+  respell: KE-lee // LEF-ler
+  notes: ''
+- id:
+    govtrack: 407672
+  name: Kweisi // Mfume
+  ipa: kwɑˈisi // mˈfumeɪ
+  respell: kwah-EE-see // m-FOO-may
+  notes: https://www.youtube.com/watch?v=TxsrTnhJb6A
+- id:
+    govtrack: 412845
+  name: Gregory // Murphy
+  ipa: ˈgɹɛgəɹi // ˈmɹ̩fi
+  respell: GRE-guh-ree // MER-fee
+  notes: ''
+- id:
+    govtrack: 456791
+  name: Thomas // Tiffany
+  ipa: tɐmɪs // ˈtɪfəni
+  respell: TOM-iss // TIF-uh-nee
   notes: ''
