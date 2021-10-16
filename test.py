@@ -2,6 +2,7 @@ import unicodedata
 import urllib.request
 import re
 import rtyaml
+from collections import defaultdict
 
 with open("legislators.yaml") as f:
 	guide = rtyaml.load(f)
@@ -188,6 +189,8 @@ respelling_symbols = { unicodedata.normalize("NFC", s) for s in respelling_symbo
 # multi-glyph symbols before single-glyph symbols.
 respelling_symbols = list(sorted(respelling_symbols, key = lambda s : -len(unicodedata.normalize("NFD", s))))
 
+word_respellings = defaultdict(lambda : set())
+
 for member in guide:
 	for respell in member["respell"].split(" // "):
 		# Check that only valid respelling letter( combination)s are present.
@@ -220,7 +223,14 @@ for member in guide:
 			rw = respell.split(" ") # only as spaces
 			if len(nw) != len(rw):
 				error("Respelling doesn't have the same number of words as the name: {} and {}".format(nw, rw))
-			
+			else:
+				for n, r in zip(nw, rw):
+					word_respellings[n].add(r)
+
+# Report if any words have different respellings.
+for w, rr in word_respellings.items():
+	if len(rr) > 1:
+		error("Multiple respellings for {}: {}".format(w, ", ".join(rr)))
 
 # Check that we have a record for all current members of Congress and that
 # names match.

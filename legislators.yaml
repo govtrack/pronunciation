@@ -104,7 +104,7 @@
     govtrack: 412411
   name: Dennis // Ross
   ipa: dɛnɪs // ɹɔs
-  respell: DEH-niss // rawss
+  respell: DEH-niss // ross
   notes: ''
 - id:
     govtrack: 412610
@@ -164,7 +164,7 @@
     govtrack: 412675
   name: Warren // Davidson
   ipa: waɹən // de͡ɪvɪdsn̩
-  respell: WAH-rin // DAY-vid-sin
+  respell: WAH-ren // DAY-vid-sin
   notes: ''
 - id:
     govtrack: 400652
@@ -176,7 +176,7 @@
     govtrack: 412706
   name: Mike // Johnson
   ipa: ma͡ɪk // d͡ʒɐnsn̩
-  respell: mīk // JON-sin
+  respell: mīk // JON-sun
   notes: ''
 - id:
     govtrack: 412382
@@ -320,7 +320,7 @@
     govtrack: 412538
   name: Jackie // Walorski
   ipa: d͡ʒæki // wəloɹski
-  respell: JAK-ee // wuh-LOR-skee
+  respell: JA-kee // wuh-LOR-skee
   notes: https://www.youtube.com/watch?v=7mEcdGIqV-o
 - id:
     govtrack: 412739
@@ -814,7 +814,7 @@
     govtrack: 412555
   name: Kevin // Cramer
   ipa: kɛvɪn // kɹe͡ɪmɹ̩
-  respell: KEV-in // KRAY-mer
+  respell: KEH-vin // KRAY-mer
   notes: https://www.youtube.com/watch?v=dS96EbMSIqQ
 - id:
     govtrack: 412644
@@ -904,7 +904,7 @@
     govtrack: 412725
   name: Vicente // Gonzalez
   ipa: visɛntɛ // gɔ̃nsalɛs
-  respell: VEE-sen-teh // GAWN-sah-less
+  respell: VEE-sen-teh // gon-ZAH-less
   notes: https://www.youtube.com/watch?v=mpj4hoorz60 POD doesn’t allow for an accurate
     transcription of Spanish e, i.e. [e]
 - id:
@@ -989,7 +989,7 @@
     govtrack: 400238
   name: Sander // Levin
   ipa: sæ̃ndɹ̩ // lɛvɪn
-  respell: SAN-der // LEH-vin
+  respell: SAN-der // LEH-vun
   notes: https://www.youtube.com/watch?v=M7xCDr1qLmg
 - id:
     govtrack: 412292
@@ -1394,7 +1394,7 @@
     govtrack: 300025
   name: Susan // Collins
   ipa: suzn̩ // kɔlɪnz
-  respell: SOO-zun // KAW-linz
+  respell: SOO-zun // KAH-linz
   notes: https://www.youtube.com/watch?v=tpI-eFpVOyA
 - id:
     govtrack: 412537
@@ -1412,7 +1412,7 @@
     govtrack: 412531
   name: Doug // Collins
   ipa: dʌg // kɔlɪnz
-  respell: dug // KAW-linz
+  respell: dug // KAH-linz
   notes: https://www.youtube.com/watch?v=fXMphcCyv2k
 - id:
     govtrack: 400246
@@ -1454,7 +1454,7 @@
     govtrack: 412625
   name: Rick // Allen
   ipa: ɹɪk // ælən
-  respell: rik // A-lun
+  respell: rik // AL-un
   notes: https://www.youtube.com/watch?v=TAwjV5o6ZD4
 - id:
     govtrack: 412511
@@ -1556,8 +1556,8 @@
 - id:
     govtrack: 412443
   name: Steven // Palazzo
-  ipa: stiv // pəlæzo͡ʊ
-  respell: steev // puh-LA-zoh
+  ipa: stivɪn // pəlæzo͡ʊ
+  respell: STEE-vun // puh-LA-zoh
   notes: https://www.youtube.com/watch?v=-eOHa4rKT1o
 - id:
     govtrack: 412462
@@ -1749,7 +1749,7 @@
     govtrack: 412199
   name: Henry // Johnson
   ipa: hɛnɹi // d͡ʒɐnsn̩
-  respell: HEN-ree // JON-sin
+  respell: HEN-ree // JON-sun
   notes: https://www.youtube.com/watch?v=8V7zgintQrQ HANK
 - id:
     govtrack: 412690
@@ -2032,7 +2032,7 @@
     govtrack: 412521
   name: Alan // Lowenthal
   ipa: ælən // lo͡ʊwənθɔl
-  respell: A-lun // LOH-wun-thawl
+  respell: AL-un // LOH-wun-thawl
   notes: https://www.youtube.com/watch?v=3ZEl3KXtgHk
 - id:
     govtrack: 412541
@@ -2068,7 +2068,7 @@
     govtrack: 412496
   name: Ron // Johnson
   ipa: ɹɐn // d͡ʒɐnsn̩
-  respell: ron // JON-sin
+  respell: ron // JON-sun
   notes: https://www.youtube.com/watch?v=HojOAFO5BEk
 - id:
     govtrack: 400141
@@ -2375,7 +2375,7 @@
     govtrack: 412578
   name: Roger // Williams
   ipa: ɹɐd͡ʒɹ̩ // wɪljəmz
-  respell: RAH-jer // WIL-jumz
+  respell: RAH-jer // WIL-yumz
   notes: https://www.youtube.com/watch?v=LIVCX1yXwH0
 - id:
     govtrack: 412735
@@ -2387,7 +2387,7 @@
     govtrack: 400204
   name: Eddie // Johnson
   ipa: ɛdi // d͡ʒɐnsn̩
-  respell: EH-dee // JON-sin
+  respell: EH-dee // JON-sun
   notes: https://www.youtube.com/watch?v=txACW-NPFak
 - id:
     govtrack: 412190
@@ -2483,7 +2483,7 @@
     govtrack: 412305
   name: Gary // Peters
   ipa: gɛəɹi // pitɹ̩z
-  respell: GAIR-ee // PEE-terz
+  respell: GAR-ee // PEE-terz
   notes: https://www.youtube.com/watch?v=2YtANSBSVZo
 - id:
     govtrack: 412707
@@ -2603,7 +2603,7 @@
     govtrack: 412678
   name: Kamala // Harris
   ipa: kɔmələ // hæɹəs
-  respell: KAH-muh-luh // HAR-uss
+  respell: KAH-muh-luh // HAR-iss
   notes: https://www.youtube.com/watch?v=xYKZOmthBwo
 - id:
     govtrack: 412505
@@ -2983,7 +2983,7 @@
     govtrack: 412516
   name: Julia // Brownley
   ipa: d͡ʒuljə // bɹa͡ʊnli
-  respell: JOOL-yuh // BROWN-lee
+  respell: JOO-lee-uh // BROWN-lee
   notes: https://www.youtube.com/watch?v=4rtysSXv_3o
 - id:
     govtrack: 400361
@@ -3007,7 +3007,7 @@
     govtrack: 412542
   name: Elizabeth // Warren
   ipa: ɛlɪzəbəθ // wɔɹn̩
-  respell: eh-LIZ-uh-buth // WAW-ren
+  respell: eh-LIZ-uh-buth // WAH-ren
   notes: https://www.youtube.com/watch?v=kE_wj6NHdEQ
 - id:
     govtrack: 412718
@@ -3067,7 +3067,7 @@
     govtrack: 412704
   name: Roger // Marshall
   ipa: ɹɔd͡ʒɹ̩ // maɹʃəl
-  respell: RAW-jer // MAHR-shul
+  respell: RAH-jer // MAHR-shul
   notes: https://www.youtube.com/watch?v=vXX_qyU34co
 - id:
     govtrack: 412696
@@ -3079,7 +3079,7 @@
     govtrack: 400206
   name: Sam // Johnson
   ipa: sæ̃m // d͡ʒɐnsn̩
-  respell: sam // JON-sin
+  respell: sam // JON-sun
   notes: https://www.youtube.com/watch?v=p3IqptBnuHU
 - id:
     govtrack: 412510
@@ -3411,7 +3411,7 @@
     govtrack: 412765
   name: Ross // Spano
   ipa: ɹɔs // spæno͡ʊ
-  respell: rawss // SPA-noh
+  respell: ross // SPA-noh
   notes: ''
 - id:
     govtrack: 412766
@@ -3531,7 +3531,7 @@
     govtrack: 412785
   name: Andy // Levin
   ipa: æ̃ndi // lɛvɪn
-  respell: AN-dee // LEH-vin
+  respell: AN-dee // LEH-vun
   notes: ''
 - id:
     govtrack: 412786
@@ -3627,8 +3627,8 @@
     govtrack: 412801
   name: Xochitl // Torres Small
   ipa: ˈso͡ʊt͡ʃil // to͡ʊɹɛs smal
-  respell: SOH-cheel // TOH-ress smawll
-  notes: R int eh IPA not a mistake
+  respell: SOH-cheel // TOR-iss smawll
+  notes: R in the IPA not a mistake
 - id:
     govtrack: 412802
   name: Susie // Lee
@@ -3663,7 +3663,7 @@
     govtrack: 412807
   name: Anthony // Gonzalez
   ipa: æ̃nθəni // gənzalɛs
-  respell: AN-thuh-nee // gun-ZAH-less
+  respell: AN-thuh-nee // gon-ZAH-less
   notes: ''
 - id:
     govtrack: 412808
@@ -3717,7 +3717,7 @@
     govtrack: 412816
   name: Dusty // Johnson
   ipa: ˈdʌsti // d͡ʒɐnsn̩
-  respell: DUH-stee // JON-sin
+  respell: DUH-stee // JON-sun
   notes: ''
 - id:
     govtrack: 412817
@@ -3963,11 +3963,6 @@
   respell: jay // OH-ber-nohl-tee
   notes: 'https://www.youtube.com/watch?v=qH9z35ANumE'
 - id:
-    govtrack: 412515
-  name: David // Valadao
-  respell: DAY-vid // val-uh-DAY-oh
-  notes: 'https://www.youtube.com/watch?v=KsqqV9l4xn4'
-- id:
     govtrack: 456802
   name: Young // Kim
   respell: yung // kim
@@ -4015,7 +4010,7 @@
 - id:
     govtrack: 456811
   name: Nikema // Williams
-  respell: nuh-KEE-ma // WIL-yums
+  respell: nuh-KEE-ma // WIL-yumz
   notes: 'https://www.youtube.com/watch?v=3yVCnGGJ7wI'
 - id:
     govtrack: 456812
@@ -4025,7 +4020,7 @@
 - id:
     govtrack: 456813
   name: Andrew // Clyde
-  respell: AN-driw // klīd
+  respell: AN-droo // klīd
   notes: 'https://www.youtube.com/watch?v=q2pWaxZxKAg'
 - id:
     govtrack: 456814
@@ -4124,7 +4119,7 @@
   notes: 'https://www.youtube.com/watch?v=suVp_052-Po'
 - id:
     govtrack: 456833
-  name: David // Cawthorn
+  name: Madison // Cawthorn
   respell: MAD-ih-sun // KAW-thorn
   notes: 'https://www.youtube.com/watch?v=zJa_mJQHwVQ'
 - id:
@@ -4140,7 +4135,7 @@
 - id:
     govtrack: 456836
   name: Andrew // Garbarino
-  respell: AN-drew // gar-BAR-een-oh
+  respell: AN-droo // gar-BAR-een-oh
   notes: 'https://www.youtube.com/watch?v=_lvDEXeSJuE'
 - id:
     govtrack: 456837
@@ -4150,7 +4145,7 @@
 - id:
     govtrack: 456838
   name: Ritchie // Torres
-  respell: RICH-ee // TOR-ez
+  respell: RICH-ee // TOR-iss
   notes: 'https://www.youtube.com/watch?v=s-CTcqtlPbU'
 - id:
     govtrack: 456839
@@ -4160,7 +4155,7 @@
 - id:
     govtrack: 456840
   name: Mondaire // Jones
-  respell: mon-DAIR // jonz
+  respell: mon-DAIR // johnz
   notes: 'https://www.youtube.com/watch?v=5-FWNhGRqek'
 - id:
     govtrack: 456841
@@ -4185,7 +4180,7 @@
 - id:
     govtrack: 456845
   name: Patrick // Fallon
-  respell: pat // FAHL-on
+  respell: PAT-chrik // FAHL-on
   notes: 'https://www.youtube.com/watch?v=kHzDxHXXAwQ'
 - id:
     govtrack: 456846
@@ -4195,7 +4190,7 @@
 - id:
     govtrack: 456847
   name: Ronny // Jackson
-  respell: RON-ee // JAK-son
+  respell: RON-ee // JAK-sun
   notes: 'https://www.youtube.com/watch?v=6R02HA8AP-M'
 - id:
     govtrack: 456848
@@ -4205,7 +4200,7 @@
 - id:
     govtrack: 456849
   name: Ernest // Gonzales
-  respell: TOH-nee // GAWN-sah-less
+  respell: TOH-nee // gun-ZAH-less
   notes: 'https://www.youtube.com/watch?v=2t-k2afCDQM'
 - id:
     govtrack: 456850
@@ -4224,7 +4219,7 @@
   notes: 'https://www.youtube.com/watch?v=9me-EIEN7n4'
 - id:
     govtrack: 456853
-  name: Robert // Good
+  name: Bob // Good
   respell: bob // gud
   notes: 'https://www.youtube.com/watch?v=bqlMsivLMCw'
 - id:
@@ -4256,7 +4251,7 @@
 - id:
     govtrack: 456860
   name: Troy // Carter
-  respell: troy // KAR-ter
+  respell: troy // KAHR-ter
 - id:
     govtrack: 456861
   name: Melanie // Stansbury
