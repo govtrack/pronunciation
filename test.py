@@ -121,6 +121,9 @@ def validate_syllable(syl, source):
 	else:
 		error("invalid casing in " + word)
 
+	# Force to lowercase.
+	syl = syl.lower()
+
 	# Split syllable into phonemes.
 	syl = list(parse_symbols(syl, respelling_symbols, source))
 
@@ -148,27 +151,24 @@ def validate_syllable(syl, source):
 		error("invalid syllable structure: {} not a valid onset in {} in n".format(onset, syl, source['id']['govtrack']))
 
 	# Some respelling symbols are limited in their context.
-	if ("u" in nucleus or "U" in nucleus) and not coda:
+	if "u" in nucleus and not coda:
 		error("'u' not allowed in open syllable in {} in {}".format(syl, source['id']['govtrack']))
-	if ("uh" in nucleus or "UH" in nucleus) and coda:
+	if "uh" in nucleus and coda:
 		error("'uh' not allowed in closed syllable in {} in {}".format(syl, source['id']['govtrack']))
-	if ("o" in nucleus or "O" in nucleus) and not coda:
+	if "o" in nucleus and not coda:
 		error("'o' not allowed in open syllable in {} in {}".format(syl, source['id']['govtrack']))
-	if ("o" in nucleus or "O" in nucleus) and coda and ("r" in coda or "R" in coda or "l" in coda or "L" in coda):
+	if "o" in nucleus and coda and ("r" in coda or "l" in coda):
 		error("'o' not allowed in closed syllables with 'r' or 'l' in {} in {}".format(syl, source['id']['govtrack']))
-	if ("ah" in nucleus or "AH" in nucleus) and coda and not ("r" in coda or "R" in coda or "l" in coda or "L" in coda) and syl != ["w", "ah", "n"]:
+	if "ah" in nucleus and coda and not ("r" in coda or "l" in coda) and syl != ["w", "ah", "n"]:
 		error("'ah' not allowed in closed syllable except ones with 'r'/'l' in {} in {}".format(syl, source['id']['govtrack']))
-	if "ss" in onset or "SS" in onset:
+	if "ss" in onset:
 		error("'ss' not allowed in onset in {} in {}".format(syl, source['id']['govtrack']))
-	if coda in (["s"], ["S"]):
+	if coda == ["s"]:
 		error("'s' as entire coda should be 'ss' in {} in {}".format(syl, source['id']['govtrack']))
 
 
 # Perform unicode normalization so that composable characters are composed.
 respelling_symbols = { unicodedata.normalize("NFC", s) for s in respelling_symbols }
-
-# Add uppercase of all the lowercase entries above.
-for s in set(respelling_symbols): respelling_symbols.add(s.upper())
 
 # Sort in reverse length order so that parse_symbols chops off
 # multi-glyph symbols before single-glyph symbols.
