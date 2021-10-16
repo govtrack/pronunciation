@@ -10,7 +10,7 @@ This project contains a pronunciation guide for the names of current and recent-
     govtrack: 400623
   name: Debbie // Wasserman Schultz
   ipa: dɛbi // wasɹ̩mən ʃʊlt͡s
-  respell: DE-bee // WAS-er-mun shuults
+  respell: DEH-bee // WASS-er-mun shuults
   notes: https://www.youtube.com/watch?v=ZVmGudgxiRg
 ```
 
@@ -27,19 +27,19 @@ The record has four parts:
 | Vowel | Example | Consonant | Example |
 | ----- | ------- | --------- | ------- |
 | a     | cat     | b         | bat     |
-| ah    | calm    | ch        | chin    |
+| ah/o  | calm    | ch        | chin    |
 | air   | hair    | d         | day     |
 |       |         | f         | fun     |
 | aw    | law     | g         | get     |
 | ay    | say     | h         | hat     |
-| e     | bed     | j         | jam     |
+| e/eh  | bed     | j         | jam     |
 | ee    | meet    | k         | king    |
 |       |         | l         | leg     |
 | er    | her     | m         | man     |
 | ew    | few     | n         | not     |
-| i     | pin     | ng        | sing    |
+| i/ih  | pin     | ng        | sing    |
 | ī     | eye     | nk        | thank   |
-| o     | top     | p         | pen     |
+|       |         | p         | pen     |
 | oh    | most    | r         | rag     |
 | oo    | soon    | s/ss      | sit     |
 | oor   | poor    | sh        | push    |
@@ -54,12 +54,12 @@ The record has four parts:
 
 Constraints:
 
-* We use `u` and `uh` for both the stressed and unstressed mid central vowel, but `u` in used in closed syllables and `uh` in open syllables for readability reasons.
-* `ah` and `o` are similar sounds, but `o` is restricted to closed syllables, except ones that end in `r` or `l`, since in open syllables one might think it should be pronounced as in "do", "to", etc., and "dor"/"bold" is a different vowel. `ah` is used in open syllables and closed syllables ending in `r`/`l`.
+* For improved readability, some vowels have one form that only appears in closed syllables (e.g. a constant follows the vowel), `e`, `i`, `u`, and a different form that only appears in open syllables (`eh`, `ih`, `uh`). `a` has no separate open syllable form.
+* `o` and `ah` are used for the same sound. `o` is used in closed syllables, except ones that end in `r` or `l`, since in open syllables one might think it should be pronounced as in "do", "to", etc., and "dor"/"bold" is a different vowel. `ah` is used in open syllables and closed syllables ending in `r`/`l`.
 * `s` is doubled as `ss` in non-complex codas to make it less confusable for a `z` sound. In complex codas, the presence of other consonants with a voice contrast often makes `s` unambiguous.
 
 In addition:
 
 * Syllables are separated by dashes.
-* Capitalization is used to indicate primary stress, but in single-syllable names the entire name is lowercase.
+* Capitalization is used to indicate primary stress, but in single-syllable words the word is entered in lowercase.
 * Multi-word names, whether separated by dashes or spaces, are broken out by spaces.

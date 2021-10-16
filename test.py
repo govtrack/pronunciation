@@ -87,9 +87,11 @@ for member in guide:
 # use.
 respelling_vowels = {
 	"a", "ah", "air", "aw", "ay",
-	"e", "ee", "er", "ew", "i", "ī",
+	"e", "eh", "ee", "er", "ew",
+	"i", "ih", "ī",
 	"o", "oh", "oi", "oo", "oor", "or", "ow", "oy",
-	"u", "uh", "uu", "y", "yoo", "yoor", "yr",
+	"u", "uh", "uu",
+	"y", "yoo", "yoor", "yr",
 }
 respelling_consonants = {
 	"b", "ch", "d", "f", "g", "h", "j", "k", "kh",
@@ -155,13 +157,17 @@ def validate_syllable(syl, stressed, source):
 	if "ch r" in onset and stressed:
 		error("'chr' should be 'tr' in {} in {}".format(syl, source['id']['govtrack']))
 
+	# Short vowels should be in their "_H" form in open syllables
+	# and their regular forms in closed syllables. But 'a' has no
+	# separate open-syllable form, 'oh' has no separate closed
+	# syllable form, and 'ah' alternates with 'o' but not based on
+	# open/closed syllable.
+	if ("e" in nucleus or "i" in nucleus or "o" in nucleus or "u" in nucleus) and not coda:
+		error("'a/e/i/o/u' in open syllable should be 'ah/eh/ih/oh/oh' in {} in {}".format(syl, source['id']['govtrack']))
+	if ("eh" in nucleus or "ih" in nucleus or "uh" in nucleus) and coda:
+		error("'ah/eh/ih/oh/uh' in closed syllable should be 'a/e/i/o/o' in {} in {}".format(syl, source['id']['govtrack']))
+
 	# Some respelling symbols are limited in their context.
-	if "u" in nucleus and not coda:
-		error("'u' not allowed in open syllable in {} in {}".format(syl, source['id']['govtrack']))
-	if "uh" in nucleus and coda:
-		error("'uh' not allowed in closed syllable in {} in {}".format(syl, source['id']['govtrack']))
-	if "o" in nucleus and not coda:
-		error("'o' not allowed in open syllable in {} in {}".format(syl, source['id']['govtrack']))
 	if "o" in nucleus and coda and ("r" in coda or "l" in coda):
 		error("'o' not allowed in closed syllables with 'r' or 'l' in {} in {}".format(syl, source['id']['govtrack']))
 	if "ah" in nucleus and coda and not ("r" in coda or "l" in coda) and syl != ["w", "ah", "n"]:
