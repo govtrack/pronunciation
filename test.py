@@ -112,11 +112,12 @@ respelling_onsets = {
 	's t r', 'sh t r', 's k r', 's k w', 's k l', 'th w', 'p y', 'k y', 'b y', 'f y',
 	'h y', 'v y', 'th y', 'm y', 's p y', 's k y', 'g y', 'h w', 't s', ''
 }
-def validate_syllable(syl, source):
+def validate_syllable(syl, stressed, source):
 	# Check stress --- all phonemes must be uppercase or all lowercase.
 	if syl == syl.upper():
-		pass
+		stressed = True
 	elif syl == syl.lower():
+		# Might be stressed if it's a single-syllable word.
 		pass
 	else:
 		error("invalid casing in " + word)
@@ -149,6 +150,10 @@ def validate_syllable(syl, source):
 	onset = " ".join(onset)
 	if onset.lower() not in respelling_onsets:
 		error("invalid syllable structure: {} not a valid onset in {} in n".format(onset, syl, source['id']['govtrack']))
+
+	# Josh's "tr"s are like "chr" but that's hard to understand, so force to "tr".
+	if "ch r" in onset and stressed:
+		error("'chr' should be 'tr' in {} in {}".format(syl, source['id']['govtrack']))
 
 	# Some respelling symbols are limited in their context.
 	if "u" in nucleus and not coda:
@@ -188,7 +193,7 @@ for member in guide:
 				# Check that the syllabification is valid. Check each
 				# syllable's onset and nucleus and that the stress
 				# is consistent across the phonemes.
-				validate_syllable(syl, member)
+				validate_syllable(syl, len(syls) == 1, member)
 			if len(syls) == 1 and word == word.upper():
 				error("Single-syllable word should not be represented in uppercase: " + word)
 			if len(syls) > 1 and len([syl for syl in syls if syl == syl.upper()]) != 1:
