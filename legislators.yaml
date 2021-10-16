@@ -4237,3 +4237,31 @@
   name: Scott // Fitzgerald
   respell: skot // FITZ-ger-ald
   notes: 'https://www.youtube.com/watch?v=p9iDDHgjA34'
+- id:
+    govtrack: 456793
+  name: Chris // Jacobs
+  respell: kriss // JAY-kubs
+- id:
+    govtrack: 456794
+  name: Mark // Kelly
+  respell: mahrk // KEH-lee
+- id:
+    govtrack: 456856
+  name: Alex // Padilla
+  respell: A-liks // puh-DEE-yuh
+- id:
+    govtrack: 456859
+  name: Julia // Letlow
+  respell: JOO-lee-uh // LET-loh
+- id:
+    govtrack: 456860
+  name: Troy // Carter
+  respell: troy // KAR-ter
+- id:
+    govtrack: 456861
+  name: Melanie // Stansbury
+  respell: MEH-luh-nee // STANZ-buh-ree
+- id:
+    govtrack: 456862
+  name: Jake // Ellzey
+  respell: jayk // EL-zee

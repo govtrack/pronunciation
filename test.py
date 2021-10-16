@@ -229,4 +229,6 @@ M = rtyaml.load(urllib.request.urlopen("https://raw.githubusercontent.com/united
 for m in M:
 	if m["id"]["govtrack"] not in in_guide:
 		print("No pronunciation guide entry for:")
-		print(rtyaml.dump(m))
+		print(rtyaml.dump([{ "id": { "govtrack": m["id"]["govtrack"] },
+		                    "name": m["name"]["first"] + " // " + m["name"]["last"],
+		                    "respell": "" }]))
