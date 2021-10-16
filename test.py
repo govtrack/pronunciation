@@ -77,6 +77,7 @@ ipa_symbols = list(sorted(ipa_symbols, key = lambda s : -len(unicodedata.normali
 # Check that the IPA transriptions only used the white-listed symbols.
 symcount = { }
 for member in guide:
+	if "ipa" not in member: continue
 	for ipa in member["ipa"].split(" // "):
 		for s in parse_symbols(ipa, ipa_symbols, member):
 			symcount[s] = symcount.get(s, 0) + 1
@@ -151,7 +152,9 @@ def validate_syllable(syl, stressed, source):
 	# Validate onset and nucleus.
 	onset = " ".join(onset)
 	if onset.lower() not in respelling_onsets:
-		error("invalid syllable structure: {} not a valid onset in {} in n".format(onset, syl, source['id']['govtrack']))
+		error("invalid syllable structure: {} not a valid onset in {} in {}".format(onset, syl, source['id']['govtrack']))
+	if onset and not nucleus and onset != "m": # 'm' can be syllabic
+		error("invalid syllable structure: onset without nucleus {} in {}".format(onset, source['id']['govtrack']))
 
 	# Josh's "tr"s are like "chr" but that's hard to understand, so force to "tr".
 	if "ch r" in onset and stressed:

@@ -332,7 +332,7 @@
     govtrack: 412327
   name: Marcia // Fudge
   ipa: mɑɹʃə // fʌd͡ʒ
-  respell: MAHR-shuh // FUH-j
+  respell: MAHR-shuh // fuj
   notes: https://www.youtube.com/watch?v=uvPH5BJpLS4
 - id:
     govtrack: 412242
@@ -3917,3 +3917,323 @@
   ipa: tɐmɪs // ˈtɪfəni
   respell: TOM-iss // TIF-uh-nee
   notes: ''
+- id:
+    govtrack: 456796
+  name: Tommy // Tuberville
+  respell: TAH-mee // TUH-ber-vil
+  notes: 'https://youtu.be/Csjc17ZMFtk'
+- id:
+    govtrack: 456797
+  name: John // Hickenlooper
+  respell: jon // HIK-en-loo-per
+  notes: 'https://youtu.be/-63689Ahyuk'
+- id:
+    govtrack: 456857
+  name: Jon // Ossoff
+  respell: jon // OSS-of
+  notes: 'https://www.youtube.com/watch?v=R-ZYvGyakJQ'
+- id:
+    govtrack: 456858
+  name: Rafael // Warnock
+  respell: RAH-fay-el // WAHR-nok
+  notes: 'https://www.youtube.com/watch?v=RAnvNCL7DJM'
+- id:
+    govtrack: 456798
+  name: Bill // Hagerty
+  respell: bil // HAG-er-tee
+  notes: 'https://youtu.be/-1R_0I6hhPI'
+- id:
+    govtrack: 412294
+  name: Cynthia // Lummis
+  respell: SIN-thee-uh // LUH-miss
+  notes: 'https://youtu.be/TDoJNzPVd2s'
+- id:
+    govtrack: 456799
+  name: Jerry // Carl
+  respell: JEH-ree // kahrl
+  notes: 'https://youtu.be/ReWReRBiLe0'
+- id:
+    govtrack: 456800
+  name: Felix // Moore
+  respell: BA-ree // moor
+  notes: 'https://youtu.be/U9GqshuURQg'
+- id:
+    govtrack: 456801
+  name: Jay // Obernolte
+  respell: jay // OH-ber-nohl-tee
+  notes: 'https://www.youtube.com/watch?v=qH9z35ANumE'
+- id:
+    govtrack: 412515
+  name: David // Valadao
+  respell: DAY-vid // val-uh-DAY-oh
+  notes: 'https://www.youtube.com/watch?v=KsqqV9l4xn4'
+- id:
+    govtrack: 456802
+  name: Young // Kim
+  respell: yung // kim
+  notes: 'https://www.youtube.com/watch?v=pMogl0gDg9E'
+- id:
+    govtrack: 456803
+  name: Michelle // Steel
+  respell: mih-SHEL // steel
+  notes: 'https://www.youtube.com/watch?v=NOzyVoqlmTE'
+- id:
+    govtrack: 456804
+  name: Sara // Jacobs
+  respell: SAR-uh // JAY-kubs
+  notes: 'https://www.youtube.com/watch?v=RU8uLWAepLc'
+- id:
+    govtrack: 456805
+  name: Lauren // Boebert
+  respell: LAW-run // BOH-bert
+  notes: 'https://www.youtube.com/watch?v=yyL-wGwfzts'
+- id:
+    govtrack: 456806
+  name: Katherine // Cammack
+  respell: KATH-rin // kah-MAK
+  notes: 'https://www.youtube.com/watch?v=Xnc_qN0k06I'
+- id:
+    govtrack: 456807
+  name: Scott // Franklin
+  respell: skot // FRANK-lin
+  notes: 'https://www.youtube.com/watch?v=8jl9huhfFnw'
+- id:
+    govtrack: 456808
+  name: Byron // Donalds
+  respell: BĪ-ron // DAH-nulds
+  notes: 'https://www.youtube.com/watch?v=Ny-yw3yreF0'
+- id:
+    govtrack: 456809
+  name: Carlos // Giménez
+  respell: KAHR-lohss // hih-MEN-ez
+  notes: 'https://www.youtube.com/watch?v=2NNEbMx9IDs'
+- id:
+    govtrack: 456810
+  name: Maria // Salazar
+  respell: muh-REE-uh // SAL-uh-zahr
+  notes: 'https://www.youtube.com/watch?v=n1uHIPqvpNE'
+- id:
+    govtrack: 456811
+  name: Nikema // Williams
+  respell: nuh-KEE-ma // WIL-yums
+  notes: 'https://www.youtube.com/watch?v=3yVCnGGJ7wI'
+- id:
+    govtrack: 456812
+  name: Carolyn // Bourdeaux
+  respell: KAR-uh-lin // BOR-doh
+  notes: 'https://www.youtube.com/watch?v=wLVapRIjWm8'
+- id:
+    govtrack: 456813
+  name: Andrew // Clyde
+  respell: AN-driw // klīd
+  notes: 'https://www.youtube.com/watch?v=q2pWaxZxKAg'
+- id:
+    govtrack: 456814
+  name: Marjorie // Greene
+  respell: MAHR-joh-ree // green
+  notes: 'https://www.youtube.com/watch?v=o5LEC8Vuxhc'
+- id:
+    govtrack: 456815
+  name: Kaialiʻi // Kahele
+  respell: ky // kah-HEL-ay
+  notes: 'https://www.youtube.com/watch?v=wssiFdBKKaE'
+- id:
+    govtrack: 456816
+  name: Ashley // Hinson
+  respell: ASH-lee // HIN-son
+  notes: 'https://www.youtube.com/watch?v=fNSd0px_96Q'
+- id:
+    govtrack: 456817
+  name: Mariannette // Miller-Meeks
+  respell: mar-ee-uh-NET // MIH-ler meeks
+  notes: 'https://www.youtube.com/watch?v=qUz5_3SWK1c'
+- id:
+    govtrack: 456818
+  name: Randy // Feenstra
+  respell: RAN-dee // FEEN-struh
+  notes: 'https://www.youtube.com/watch?v=QHRzk4quA0k'
+- id:
+    govtrack: 456819
+  name: Marie // Newman
+  respell: ma-REE // NEW-man
+  notes: 'https://www.youtube.com/watch?v=UhzhbNAZPiA'
+- id:
+    govtrack: 456820
+  name: Mary // Miller
+  respell: MA-ree // MIH-ler
+  notes: 'https://www.youtube.com/watch?v=nQZUkrq7XLQ'
+- id:
+    govtrack: 456821
+  name: Frank // Mrvan
+  respell: frank // mer-VAN
+  notes: 'https://www.youtube.com/watch?v=s-o-73ax6Ws'
+- id:
+    govtrack: 456822
+  name: Victoria // Spartz
+  respell: vik-TOR-ee-uh // spahrts
+  notes: 'https://www.youtube.com/watch?v=2XXxf7vz1oc'
+- id:
+    govtrack: 456823
+  name: Tracey // Mann
+  respell: TRA-see // man
+  notes: 'https://www.youtube.com/watch?v=15palhHXk8U'
+- id:
+    govtrack: 456824
+  name: Jacob // LaTurner
+  respell: jayk // lah-TUR-ner
+  notes: 'https://www.youtube.com/watch?v=5NLnfZUI9mk'
+- id:
+    govtrack: 456825
+  name: Jake // Auchincloss
+  respell: jayk // OK-in-kloss
+  notes: 'https://www.youtube.com/watch?v=wuA9N3WZrzQ'
+- id:
+    govtrack: 456826
+  name: Peter // Meijer
+  respell: PEE-ter // MY-er
+  notes: 'https://www.youtube.com/watch?v=u70P_b_gxGo'
+- id:
+    govtrack: 456827
+  name: Lisa // McClain
+  respell: LEE-suh // muh-KLAYN
+  notes: 'https://www.youtube.com/watch?v=Z_gt7K-zjkU'
+- id:
+    govtrack: 456828
+  name: Michelle // Fischbach
+  respell: mih-SHEL // FISH-bok
+  notes: 'https://www.youtube.com/watch?v=m02PndmbSUQ'
+- id:
+    govtrack: 456829
+  name: Cori // Bush
+  respell: KOR-ee // buush
+  notes: 'https://www.youtube.com/watch?v=dvm05NWCHcY'
+- id:
+    govtrack: 456830
+  name: Matthew // Rosendale
+  respell: MATH-yoo // ROHZ-en-dayl
+  notes: 'https://www.youtube.com/watch?v=NCO34XLCRqw'
+- id:
+    govtrack: 456831
+  name: Deborah // Ross
+  respell: DEB-or-ah // ross
+  notes: 'https://www.youtube.com/watch?v=4qa2bZm8ffI'
+- id:
+    govtrack: 456832
+  name: Kathy // Manning
+  respell: KATH-ee // MA-ning
+  notes: 'https://www.youtube.com/watch?v=suVp_052-Po'
+- id:
+    govtrack: 456833
+  name: David // Cawthorn
+  respell: MAD-ih-sun // KAW-thorn
+  notes: 'https://www.youtube.com/watch?v=zJa_mJQHwVQ'
+- id:
+    govtrack: 456834
+  name: Stella // Herrell
+  respell: EE-vet // HAIR-ell
+  notes: 'https://www.youtube.com/watch?v=C4pZIHQlrzM'
+- id:
+    govtrack: 456835
+  name: Teresa // Fernandez
+  respell: TER-eh-sa // fer-NAN-dez
+  notes: 'https://www.youtube.com/watch?v=UGEimafQe4M'
+- id:
+    govtrack: 456836
+  name: Andrew // Garbarino
+  respell: AN-drew // gar-BAR-een-oh
+  notes: 'https://www.youtube.com/watch?v=_lvDEXeSJuE'
+- id:
+    govtrack: 456837
+  name: Nicole // Malliotakis
+  respell: nih-KOHL // mah-lee-uh-TOK-iss
+  notes: 'https://www.youtube.com/watch?v=Tr6OQRiKYZI'
+- id:
+    govtrack: 456838
+  name: Ritchie // Torres
+  respell: RICH-ee // TOR-ez
+  notes: 'https://www.youtube.com/watch?v=s-CTcqtlPbU'
+- id:
+    govtrack: 456839
+  name: Jamaal // Bowman
+  respell: JA-mahl // BOW-mun
+  notes: 'https://www.youtube.com/watch?v=J0jw5xZdN4M'
+- id:
+    govtrack: 456840
+  name: Mondaire // Jones
+  respell: mon-DAIR // jonz
+  notes: 'https://www.youtube.com/watch?v=5-FWNhGRqek'
+- id:
+    govtrack: 456841
+  name: Stephanie // Bice
+  respell: STEH-fuh-nee // byss
+  notes: 'https://www.youtube.com/watch?v=xl7vhuhDkyY'
+- id:
+    govtrack: 456842
+  name: Cliff // Bentz
+  respell: kliff // bents
+  notes: 'https://www.youtube.com/watch?v=jmpWk5ikBPU'
+- id:
+    govtrack: 456843
+  name: Nancy // Mace
+  respell: NAN-see // mayss
+  notes: 'https://www.youtube.com/watch?v=bd5veEwyZ_4'
+- id:
+    govtrack: 456844
+  name: Diana // Harshbarger
+  respell: dī-A-nuh // HARSH-barg-er
+  notes: 'https://www.youtube.com/watch?v=iMj5C6IJs_4'
+- id:
+    govtrack: 456845
+  name: Patrick // Fallon
+  respell: pat // FAHL-on
+  notes: 'https://www.youtube.com/watch?v=kHzDxHXXAwQ'
+- id:
+    govtrack: 456846
+  name: August // Pfluger
+  respell: AUG-ust // FLEW-ger
+  notes: 'https://www.youtube.com/watch?v=zjHC6SeLwPY'
+- id:
+    govtrack: 456847
+  name: Ronny // Jackson
+  respell: RON-ee // JAK-son
+  notes: 'https://www.youtube.com/watch?v=6R02HA8AP-M'
+- id:
+    govtrack: 456848
+  name: Troy // Nehls
+  respell: troy // nelz
+  notes: 'https://www.youtube.com/watch?v=VoUFTUI8MzM'
+- id:
+    govtrack: 456849
+  name: Ernest // Gonzales
+  respell: TOH-nee // GAWN-sah-less
+  notes: 'https://www.youtube.com/watch?v=2t-k2afCDQM'
+- id:
+    govtrack: 456850
+  name: Beth // Van Duyne
+  respell: beth // van dīn
+  notes: 'https://www.youtube.com/watch?v=Ug0Jd56urKI'
+- id:
+    govtrack: 456851
+  name: Blake // Moore
+  respell: blayk // moor
+  notes: 'https://www.youtube.com/watch?v=ssBOvkhg3No'
+- id:
+    govtrack: 456852
+  name: Clarence // Owens
+  respell: BUR-gess // OH-wenz
+  notes: 'https://www.youtube.com/watch?v=9me-EIEN7n4'
+- id:
+    govtrack: 456853
+  name: Robert // Good
+  respell: bob // gud
+  notes: 'https://www.youtube.com/watch?v=bqlMsivLMCw'
+- id:
+    govtrack: 456854
+  name: Marilyn // Strickland
+  respell: MAR-ih-lin // STRIK-lan
+  notes: 'https://www.youtube.com/watch?v=F4mZNeLwyIQ'
+- id:
+    govtrack: 456855
+  name: Scott // Fitzgerald
+  respell: skot // FITZ-ger-ald
+  notes: 'https://www.youtube.com/watch?v=p9iDDHgjA34'
